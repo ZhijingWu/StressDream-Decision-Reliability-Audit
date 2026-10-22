@@ -1,0 +1,15 @@
+{
+  "status": "STOP",
+  "reason": "Out of range float values are not JSON compliant: nan",
+  "traceback": "Traceback (most recent call last):\n  File \"[LOCAL_PATH_REDACTED]\", line 166, in <module>\n    try:main()\n        ^^^^^^\n  File \"[LOCAL_PATH_REDACTED]\", line 158, in main\n    save('TENSOR_VALIDITY.json',{'all_checked_finite':True,'records':tensor_records})\n  File \"[LOCAL_PATH_REDACTED]\", line 11, in save\n    p=RAW/name;p.write_text(json.dumps(value,indent=2,ensure_ascii=False,allow_nan=False)+'\\n',encoding='utf-8')\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[LOCAL_PATH_REDACTED]\", line 238, in dumps\n    **kw).encode(obj)\n          ^^^^^^^^^^^\n  File \"[LOCAL_PATH_REDACTED]\", line 202, in encode\n    chunks = list(chunks)\n             ^^^^^^^^^^^^\n  File \"[LOCAL_PATH_REDACTED]\", line 432, in _iterencode\n    yield from _iterencode_dict(o, _current_indent_level)\n  File \"[LOCAL_PATH_REDACTED]\", line 406, in _iterencode_dict\n    yield from chunks\n  File \"[LOCAL_PATH_REDACTED]\", line 326, in _iterencode_list\n    yield from chunks\n  File \"[LOCAL_PATH_REDACTED]\", line 398, in _iterencode_dict\n    yield _floatstr(value)\n          ^^^^^^^^^^^^^^^^\n  File \"[LOCAL_PATH_REDACTED]\", line 240, in floatstr\n    raise ValueError(\nValueError: Out of range float values are not JSON compliant: nan\n",
+  "pilot_elapsed_s": 722.7775545120239,
+  "counts": {
+    "future_latents": 43,
+    "paired_reconstructions": 32,
+    "vae_encodes": 36,
+    "vae_decodes": 75,
+    "head_calls": 78,
+    "denoiser_forwards": 215,
+    "renderer_calls": 35
+  }
+}

@@ -1,0 +1,7 @@
+criterion,domain,margin_m2,parseable,per_action_error_target_m2,total,within_C_error_target,within_goal_distance_error_target
+"diagnostic empirical per-frame target, not certification of pairs or Q*",clean,0.0025,16,0.000625,16,0,0
+"diagnostic empirical per-frame target, not certification of pairs or Q*",clean,0.005,16,0.00125,16,1,1
+"diagnostic empirical per-frame target, not certification of pairs or Q*",clean,0.01,16,0.0025,16,6,2
+"diagnostic empirical per-frame target, not certification of pairs or Q*",reconstruction,0.0025,16,0.000625,16,0,0
+"diagnostic empirical per-frame target, not certification of pairs or Q*",reconstruction,0.005,16,0.00125,16,2,2
+"diagnostic empirical per-frame target, not certification of pairs or Q*",reconstruction,0.01,16,0.0025,16,7,3

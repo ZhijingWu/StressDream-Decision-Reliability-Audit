@@ -1,0 +1,94 @@
+[
+  {
+    "threshold": 64,
+    "angle_offset": -0.023245490185802225,
+    "position_correction": [
+      -0.008384769669673256,
+      0.010198841230260866,
+      -0.0445753697181478,
+      0.0010537109187340353
+    ],
+    "area_bounds": [
+      12,
+      600
+    ],
+    "axis_ratio_min": 1.3,
+    "skew_abs_min": 0.05,
+    "secondary_component_fraction_max": 0.35,
+    "extent_max_px": 40,
+    "tuning_images": 32,
+    "tuning_parseable": 32,
+    "tuning_position_max_m": 0.013730270062220485,
+    "tuning_heading_max_rad": 0.1752902276232787,
+    "selection_objective": 0.00016396472535233392
+  },
+  {
+    "threshold": 96,
+    "angle_offset": -0.0219705983328597,
+    "position_correction": [
+      -0.008346002335138665,
+      0.010128049219266425,
+      -0.04671776693661013,
+      0.0010299131556577345
+    ],
+    "area_bounds": [
+      12,
+      600
+    ],
+    "axis_ratio_min": 1.3,
+    "skew_abs_min": 0.05,
+    "secondary_component_fraction_max": 0.35,
+    "extent_max_px": 40,
+    "tuning_images": 32,
+    "tuning_parseable": 32,
+    "tuning_position_max_m": 0.013197022086039166,
+    "tuning_heading_max_rad": 0.16997062606185387,
+    "selection_objective": 0.00016298210847927428
+  },
+  {
+    "threshold": 128,
+    "angle_offset": -0.022690821603521424,
+    "position_correction": [
+      -0.00792506265622064,
+      0.010189044623954938,
+      -0.049027460939033526,
+      0.0009507408255057118
+    ],
+    "area_bounds": [
+      12,
+      600
+    ],
+    "axis_ratio_min": 1.3,
+    "skew_abs_min": 0.05,
+    "secondary_component_fraction_max": 0.35,
+    "extent_max_px": 40,
+    "tuning_images": 32,
+    "tuning_parseable": 32,
+    "tuning_position_max_m": 0.01468033192449827,
+    "tuning_heading_max_rad": 0.16862270194993043,
+    "selection_objective": 0.00015914903421378974
+  },
+  {
+    "threshold": 160,
+    "angle_offset": -0.023088486803080167,
+    "position_correction": [
+      -0.007887371966903449,
+      0.010184746727988494,
+      -0.05140649349172542,
+      0.0007236024769130831
+    ],
+    "area_bounds": [
+      12,
+      600
+    ],
+    "axis_ratio_min": 1.3,
+    "skew_abs_min": 0.05,
+    "secondary_component_fraction_max": 0.35,
+    "extent_max_px": 40,
+    "tuning_images": 32,
+    "tuning_parseable": 32,
+    "tuning_position_max_m": 0.013725098844097252,
+    "tuning_heading_max_rad": 0.16632658156742908,
+    "selection_objective": 0.00015504210938558277
+  }
+]

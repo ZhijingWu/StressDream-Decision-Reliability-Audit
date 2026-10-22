@@ -1,0 +1,21 @@
+{
+  "pinned_revision": "b16fa067d3d949ef09ad48a984c62ea8ecbbfe6d",
+  "checkpoints": [
+    {
+      "upstream_relative_path": "dubins/checkpoints/vae_final.pt",
+      "bytes": 49507403,
+      "sha256": "c63fa2482a4ecdb85a0d65e47570a21c3bcbc6a83928d27e3a96e3f58f1b4620",
+      "git_blob_sha1": "5855742d76dafbfed0664c502cd64fefd590307b",
+      "origin_url": "https://raw.githubusercontent.com/CMU-IntentLab/StressDream/b16fa067d3d949ef09ad48a984c62ea8ecbbfe6d/dubins/checkpoints/vae_final.pt",
+      "weights_included": false
+    },
+    {
+      "upstream_relative_path": "dubins/checkpoints/world_model_latest.pt",
+      "bytes": 27393162,
+      "sha256": "d7b2866d6fb1009b86ce19d362d9fb742221a8e9a70ec8fe1a6fac6627565b12",
+      "git_blob_sha1": "23881b0fb251d14c6f1234551e761f5ac1d1202c",
+      "origin_url": "https://raw.githubusercontent.com/CMU-IntentLab/StressDream/b16fa067d3d949ef09ad48a984c62ea8ecbbfe6d/dubins/checkpoints/world_model_latest.pt",
+      "weights_included": false
+    }
+  ]
+}

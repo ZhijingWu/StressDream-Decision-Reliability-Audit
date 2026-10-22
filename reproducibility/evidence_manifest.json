@@ -1,0 +1,738 @@
+{
+  "schema": 1,
+  "hash_algorithm": "SHA-256",
+  "upstream_revision": "b16fa067d3d949ef09ad48a984c62ea8ecbbfe6d",
+  "originals_preserved": true,
+  "self_excluded": "reproducibility/evidence_manifest.json",
+  "note": "Public hashes cover published bytes. Frozen-source hashes are provenance anchors; sanitized copies do not have identical hashes.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 79,
+      "sha256": "ce97452b8326f81c9ce2bc0a3259712e6d9c1e834d0650d09d4774dd8f42ef5c",
+      "transformation": "new publication documentation / retained-data verification utility"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 338,
+      "sha256": "6264807b4d614683a374b79f8bcd366ee98a8d00ea0b7ab47184b41a47074045",
+      "transformation": "new publication documentation / retained-data verification utility"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 767,
+      "sha256": "9e0e63990b16f44182863e59fcac6542817d7402476abcec5754434147535692",
+      "transformation": "new publication documentation / retained-data verification utility"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1088,
+      "sha256": "94bbf8e5c7d70f7caa44700025d6155cb0eea7609eb54965c3f636f31d55f53f",
+      "transformation": "new publication documentation / retained-data verification utility"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7634,
+      "sha256": "744157326693a804e3f2481b3eef843ab19911cbdf4ba62d5f764db6b6dc263c",
+      "transformation": "new publication documentation / retained-data verification utility"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2468,
+      "sha256": "3fec3cdca24320560d4c83fda5e9aa0bdbc5805dbecc7200991e1f711dd38781",
+      "transformation": "new publication documentation / retained-data verification utility"
+    },
+    {
+      "path": "experiments/gate0/ACTION_SEPARATION_RESULTS.csv",
+      "bytes": 25239,
+      "sha256": "27091a31ed14876832bcc6b62673da92899fd5db92792fbf4af25444ab830ecf",
+      "source_locator": "gate0_oracle_validation/ACTION_SEPARATION_RESULTS.csv",
+      "frozen_source_sha256": "27091a31ed14876832bcc6b62673da92899fd5db92792fbf4af25444ab830ecf",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0/raw/CONTEXT_SUMMARY.csv",
+      "bytes": 2640,
+      "sha256": "e5a7401f38414ad374df3f5535773f103cc8cb7811ff20afd3f0f597d7ed69ac",
+      "source_locator": "gate0_oracle_validation/raw/CONTEXT_SUMMARY.csv",
+      "frozen_source_sha256": "e5a7401f38414ad374df3f5535773f103cc8cb7811ff20afd3f0f597d7ed69ac",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0/raw/EXECUTION_METADATA.json",
+      "bytes": 1555,
+      "sha256": "54e16ce7ad4a09df9af11fcb26f324d4776ab8961dbc3acb1f2dcac9de9116f8",
+      "source_locator": "gate0_oracle_validation/raw/EXECUTION_METADATA.json",
+      "frozen_source_sha256": "5fbad64827633d833fb49c7aa5fbb8eb59f999377a4688698a169c7f7b5997cf",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "experiments/gate0/raw/ORACLE_RUN.log",
+      "bytes": 651,
+      "sha256": "2b1692d9f1c6b27fd1c2cb81eea184423590f81fe6629f64fe0204160df088dd",
+      "source_locator": "gate0_oracle_validation/raw/ORACLE_RUN.log",
+      "frozen_source_sha256": "2b1692d9f1c6b27fd1c2cb81eea184423590f81fe6629f64fe0204160df088dd",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0/raw/ORACLE_UNIT_TESTS.log",
+      "bytes": 1834,
+      "sha256": "453b7c663ead7d9a7ebf003ef336d45c9ba3515893403ea36026b67265be4a11",
+      "source_locator": "gate0_oracle_validation/raw/ORACLE_UNIT_TESTS.log",
+      "frozen_source_sha256": "453b7c663ead7d9a7ebf003ef336d45c9ba3515893403ea36026b67265be4a11",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0/raw/PAIRWISE_ACTION_DIFFERENCES.csv",
+      "bytes": 29942,
+      "sha256": "c84e93d7ae4fcccf2ba0c674fc816b888f4eb327201982bdb4e50402792e72d3",
+      "source_locator": "gate0_oracle_validation/raw/PAIRWISE_ACTION_DIFFERENCES.csv",
+      "frozen_source_sha256": "c84e93d7ae4fcccf2ba0c674fc816b888f4eb327201982bdb4e50402792e72d3",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0/raw/WORST_CASE_WITNESSES.csv",
+      "bytes": 180079,
+      "sha256": "f63fb11429fe7f82937acd8bf9f31bb5a91f3c949688ead4079756d0fe6aecc9",
+      "source_locator": "gate0_oracle_validation/raw/WORST_CASE_WITNESSES.csv",
+      "frozen_source_sha256": "f63fb11429fe7f82937acd8bf9f31bb5a91f3c949688ead4079756d0fe6aecc9",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0b/DECISION_DIVERSITY_RESULTS.csv",
+      "bytes": 177380,
+      "sha256": "a6717f9eefbcb0df4941fa5e6d3bd506c8c9487e8340f84ea1bbb88e3a593d7f",
+      "source_locator": "gate0b_decision_diversity/DECISION_DIVERSITY_RESULTS.csv",
+      "frozen_source_sha256": "a6717f9eefbcb0df4941fa5e6d3bd506c8c9487e8340f84ea1bbb88e3a593d7f",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0b/DESIGN_AMENDMENT_1.json",
+      "bytes": 776,
+      "sha256": "0cf6b6e827428b2eec58fd917fdd0daf1274125035b723cb5f4a1e585d1cf07f",
+      "source_locator": "gate0b_decision_diversity/DESIGN_AMENDMENT_1.json",
+      "frozen_source_sha256": "0cf6b6e827428b2eec58fd917fdd0daf1274125035b723cb5f4a1e585d1cf07f",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0b/DESIGN_PLAN.json",
+      "bytes": 2652,
+      "sha256": "ffbbbb158868fcf379db2b0ec4fc5ed6659ce697b0129b1f14c9fad27fb512f2",
+      "source_locator": "gate0b_decision_diversity/DESIGN_PLAN.json",
+      "frozen_source_sha256": "ffbbbb158868fcf379db2b0ec4fc5ed6659ce697b0129b1f14c9fad27fb512f2",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0b/FROZEN_TEST_SPEC.json",
+      "bytes": 1324,
+      "sha256": "c6051a4ea58add0dd09e4c57c8c9526174f120e0d9ddb1b98ff22af1db7b8e07",
+      "source_locator": "gate0b_decision_diversity/FROZEN_TEST_SPEC.json",
+      "frozen_source_sha256": "c6051a4ea58add0dd09e4c57c8c9526174f120e0d9ddb1b98ff22af1db7b8e07",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0b/FROZEN_TEST_SPEC_V2.json",
+      "bytes": 2615,
+      "sha256": "6c25ba209ca4ead291f7ef9f9cdac59ade0493775faf468b6bc5ccd39cd95798",
+      "source_locator": "gate0b_decision_diversity/FROZEN_TEST_SPEC_V2.json",
+      "frozen_source_sha256": "6c25ba209ca4ead291f7ef9f9cdac59ade0493775faf468b6bc5ccd39cd95798",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0b/FROZEN_TEST_SPEC_V3.json",
+      "bytes": 2707,
+      "sha256": "07d19464db19d088049d6ee1c3f565805f50105733523301e62354c5d63f5397",
+      "source_locator": "gate0b_decision_diversity/FROZEN_TEST_SPEC_V3.json",
+      "frozen_source_sha256": "07d19464db19d088049d6ee1c3f565805f50105733523301e62354c5d63f5397",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0b/PRETEST_SEED_CORRECTION.json",
+      "bytes": 496,
+      "sha256": "61e928d0c20538aa02d275091236c989b7a7c6c1e3ba7efaa2dbf36c515fd229",
+      "source_locator": "gate0b_decision_diversity/PRETEST_SEED_CORRECTION.json",
+      "frozen_source_sha256": "61e928d0c20538aa02d275091236c989b7a7c6c1e3ba7efaa2dbf36c515fd229",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0b/raw/DESIGN_AMENDMENT_RESULTS.csv",
+      "bytes": 91278,
+      "sha256": "6cf179cd68e2fbc8f22d6800e7b2bff5ecc725e01f11ef65620aa17a90b769aa",
+      "source_locator": "gate0b_decision_diversity/raw/DESIGN_AMENDMENT_RESULTS.csv",
+      "frozen_source_sha256": "6cf179cd68e2fbc8f22d6800e7b2bff5ecc725e01f11ef65620aa17a90b769aa",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0b/raw/DESIGN_AMENDMENT_SUMMARY.json",
+      "bytes": 11943,
+      "sha256": "af7db4551a1f36a61c209ca5bb04ea5bcd7bf694bd1a00a3a3ad17584f183aa6",
+      "source_locator": "gate0b_decision_diversity/raw/DESIGN_AMENDMENT_SUMMARY.json",
+      "frozen_source_sha256": "af7db4551a1f36a61c209ca5bb04ea5bcd7bf694bd1a00a3a3ad17584f183aa6",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0b/raw/DESIGN_CONTEXTS.json",
+      "bytes": 24370,
+      "sha256": "57aaab240b6aca875f059305b77615040bc51d7fdfbc98ed64808f666b01d18c",
+      "source_locator": "gate0b_decision_diversity/raw/DESIGN_CONTEXTS.json",
+      "frozen_source_sha256": "57aaab240b6aca875f059305b77615040bc51d7fdfbc98ed64808f666b01d18c",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0b/raw/DESIGN_RESULTS.csv",
+      "bytes": 354151,
+      "sha256": "245c39d1e463bb6a2a0d8f698ae5f9707b36b19f8af8a010786ca3dbf1d2d4d9",
+      "source_locator": "gate0b_decision_diversity/raw/DESIGN_RESULTS.csv",
+      "frozen_source_sha256": "245c39d1e463bb6a2a0d8f698ae5f9707b36b19f8af8a010786ca3dbf1d2d4d9",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0b/raw/DESIGN_SUMMARIES.json",
+      "bytes": 50557,
+      "sha256": "da2127f58fedf0d15cb5b692e68a27bb0bcf98f19dac5f17b070d4dbb201daf2",
+      "source_locator": "gate0b_decision_diversity/raw/DESIGN_SUMMARIES.json",
+      "frozen_source_sha256": "da2127f58fedf0d15cb5b692e68a27bb0bcf98f19dac5f17b070d4dbb201daf2",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0b/raw/HELDOUT_CONTEXTS.json",
+      "bytes": 22041,
+      "sha256": "48235bcb01a890d19f9fa3992167020a1d90f9b0d23a09f0e585216eb951f307",
+      "source_locator": "gate0b_decision_diversity/raw/HELDOUT_CONTEXTS.json",
+      "frozen_source_sha256": "48235bcb01a890d19f9fa3992167020a1d90f9b0d23a09f0e585216eb951f307",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0b/raw/HELDOUT_CONTEXT_SUMMARY.csv",
+      "bytes": 7744,
+      "sha256": "8be775eadc07897f2ed9dd4443eb958f34412a6b9f06d89c52bb6fd193e7eb57",
+      "source_locator": "gate0b_decision_diversity/raw/HELDOUT_CONTEXT_SUMMARY.csv",
+      "frozen_source_sha256": "8be775eadc07897f2ed9dd4443eb958f34412a6b9f06d89c52bb6fd193e7eb57",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0b/raw/HELDOUT_PAIRWISE.csv",
+      "bytes": 64454,
+      "sha256": "917998d73ea9517d1398b2f37e566205d828814740979ba324f8ad4f1de76988",
+      "source_locator": "gate0b_decision_diversity/raw/HELDOUT_PAIRWISE.csv",
+      "frozen_source_sha256": "917998d73ea9517d1398b2f37e566205d828814740979ba324f8ad4f1de76988",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0b/raw/HELDOUT_SUMMARY.json",
+      "bytes": 12271,
+      "sha256": "e8b836f6961ff18b6523af2f70f15b3536005102c71eaea5f224388817c70335",
+      "source_locator": "gate0b_decision_diversity/raw/HELDOUT_SUMMARY.json",
+      "frozen_source_sha256": "e8b836f6961ff18b6523af2f70f15b3536005102c71eaea5f224388817c70335",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0b/raw/HELDOUT_WITNESSES.csv",
+      "bytes": 523432,
+      "sha256": "3f64ac0cbca92114e674e617c999a8a5d83989a30de2e73fb70d88927d8e7c8c",
+      "source_locator": "gate0b_decision_diversity/raw/HELDOUT_WITNESSES.csv",
+      "frozen_source_sha256": "3f64ac0cbca92114e674e617c999a8a5d83989a30de2e73fb70d88927d8e7c8c",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0b/raw/TEST_STARTED.json",
+      "bytes": 152,
+      "sha256": "7de39e1021b18f503f12c0cb9f72c651be4b67e0dc099fda83f5cc3f05bab384",
+      "source_locator": "gate0b_decision_diversity/raw/TEST_STARTED.json",
+      "frozen_source_sha256": "7de39e1021b18f503f12c0cb9f72c651be4b67e0dc099fda83f5cc3f05bab384",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate0b/raw/UNIT_TESTS.log",
+      "bytes": 1431,
+      "sha256": "d994388f3da00225a8821ad63ec781f32604d122a76fb660885da2a778d3cfc5",
+      "source_locator": "gate0b_decision_diversity/raw/UNIT_TESTS.log",
+      "frozen_source_sha256": "d994388f3da00225a8821ad63ec781f32604d122a76fb660885da2a778d3cfc5",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/EXTERNAL_GOAL_ALIAS_CHECK.csv",
+      "bytes": 2308,
+      "sha256": "a43d680762fffdeeb2440e785e8df6087cf50b9bd2c3a9c4ec1b02126eb2571c",
+      "source_locator": "gate1a_compatibility/measured_run_001/EXTERNAL_GOAL_ALIAS_CHECK.csv",
+      "frozen_source_sha256": "a43d680762fffdeeb2440e785e8df6087cf50b9bd2c3a9c4ec1b02126eb2571c",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/HEAD_CALIBRATION_RESULTS.csv",
+      "bytes": 2881,
+      "sha256": "a6ef5edd923774d144f5f1c51a8ea1e1153df1d8c3fba5d83c7c4a0593e330f4",
+      "source_locator": "gate1a_compatibility/measured_run_001/HEAD_CALIBRATION_RESULTS.csv",
+      "frozen_source_sha256": "a6ef5edd923774d144f5f1c51a8ea1e1153df1d8c3fba5d83c7c4a0593e330f4",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/MARGIN_SENSITIVITY.csv",
+      "bytes": 784,
+      "sha256": "7e6a96b7de5db69e96196930feec6153b5265be98bc948e6fc632be015bcb7fe",
+      "source_locator": "gate1a_compatibility/measured_run_001/MARGIN_SENSITIVITY.csv",
+      "frozen_source_sha256": "7e6a96b7de5db69e96196930feec6153b5265be98bc948e6fc632be015bcb7fe",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/MATCHED_SUPPORT_PATHS.csv",
+      "bytes": 7115,
+      "sha256": "94e4d4e8d708ee454eae8e0d0c485f8a239876ea7d7042a9985b6b1196c42d09",
+      "source_locator": "gate1a_compatibility/measured_run_001/MATCHED_SUPPORT_PATHS.csv",
+      "frozen_source_sha256": "94e4d4e8d708ee454eae8e0d0c485f8a239876ea7d7042a9985b6b1196c42d09",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/OPERATION_TIMINGS.csv",
+      "bytes": 12732,
+      "sha256": "343e10f6eaadef5f2e29ab0ae2dc61c3c7e838a096973b7cf4dfbda7e7fc66c2",
+      "source_locator": "gate1a_compatibility/measured_run_001/OPERATION_TIMINGS.csv",
+      "frozen_source_sha256": "343e10f6eaadef5f2e29ab0ae2dc61c3c7e838a096973b7cf4dfbda7e7fc66c2",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/READOUT_RESULTS.csv",
+      "bytes": 47810,
+      "sha256": "fae9a152cc1c3092f810235d173150d7ce8aabd60ae8f9fe8e1f89c0ce311c3f",
+      "source_locator": "gate1a_compatibility/measured_run_001/READOUT_RESULTS.csv",
+      "frozen_source_sha256": "fae9a152cc1c3092f810235d173150d7ce8aabd60ae8f9fe8e1f89c0ce311c3f",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/checkpoint_origins.json",
+      "bytes": 1018,
+      "sha256": "21809beff578aa221123ecfeb5e8938e96d1875e0a7d99dd5754226432a69eda",
+      "transformation": "new publication documentation / retained-data verification utility"
+    },
+    {
+      "path": "experiments/gate1a/raw/ACTUAL_ENVIRONMENT.json",
+      "bytes": 277,
+      "sha256": "25b3d10ace83642c960cc4c439df2dda0b39b29e6da5c965aeddba9762ac0cf9",
+      "source_locator": "gate1a_compatibility/measured_run_001/raw/ACTUAL_ENVIRONMENT.json",
+      "frozen_source_sha256": "2ed09fdee721aec8ae8b62e0def67be6fc9041bb9025f4041e533244af513428",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "experiments/gate1a/raw/ACTUAL_SAMPLER.json",
+      "bytes": 270,
+      "sha256": "a437e9918a1af591d238ac7e977a7c1ed736a7e587aeb9e4d1d9c634b2438012",
+      "source_locator": "gate1a_compatibility/measured_run_001/raw/ACTUAL_SAMPLER.json",
+      "frozen_source_sha256": "a437e9918a1af591d238ac7e977a7c1ed736a7e587aeb9e4d1d9c634b2438012",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/raw/CHECKPOINT_TENSOR_INVENTORY.json",
+      "bytes": 161277,
+      "sha256": "bb22b62c10ab30e68f8e3e0e461f69483948531f4ae6b111d1831bb3af002b39",
+      "source_locator": "gate1a_compatibility/measured_run_001/raw/CHECKPOINT_TENSOR_INVENTORY.json",
+      "frozen_source_sha256": "bb22b62c10ab30e68f8e3e0e461f69483948531f4ae6b111d1831bb3af002b39",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/raw/COMPATIBILITY_PASS.json",
+      "bytes": 871,
+      "sha256": "ffb7de68dacf569cffaea5a316b883614fc5050edc2d794b615f195372728d29",
+      "source_locator": "gate1a_compatibility/measured_run_001/raw/COMPATIBILITY_PASS.json",
+      "frozen_source_sha256": "ffb7de68dacf569cffaea5a316b883614fc5050edc2d794b615f195372728d29",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/raw/COUNTERS.json",
+      "bytes": 182,
+      "sha256": "3364420fb8db4f075091470e0e0f3539247707b399c5255c7aaffed01172466e",
+      "source_locator": "gate1a_compatibility/measured_run_001/raw/COUNTERS.json",
+      "frozen_source_sha256": "3364420fb8db4f075091470e0e0f3539247707b399c5255c7aaffed01172466e",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/raw/FROZEN_NOMINAL_JOBS.json",
+      "bytes": 2145,
+      "sha256": "8af12706db698af07c6a9005503483c58c5e77e3ca6f8ae828e887e660f3863e",
+      "source_locator": "gate1a_compatibility/measured_run_001/raw/FROZEN_NOMINAL_JOBS.json",
+      "frozen_source_sha256": "8af12706db698af07c6a9005503483c58c5e77e3ca6f8ae828e887e660f3863e",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/raw/FROZEN_PILOT_CONTEXTS.json",
+      "bytes": 7350,
+      "sha256": "f03f852275308e801cc36fc1380b83fcb24f30bf7f338cebb7dfd6ddbc71d038",
+      "source_locator": "gate1a_compatibility/measured_run_001/raw/FROZEN_PILOT_CONTEXTS.json",
+      "frozen_source_sha256": "f03f852275308e801cc36fc1380b83fcb24f30bf7f338cebb7dfd6ddbc71d038",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/raw/FROZEN_READOUT_PARAMETERS.json",
+      "bytes": 576,
+      "sha256": "c0d1c9d5de91b3c40d2d9a7d1b5d6199ee39edd49b5849bf075ec68600402b30",
+      "source_locator": "gate1a_compatibility/measured_run_001/raw/FROZEN_READOUT_PARAMETERS.json",
+      "frozen_source_sha256": "c0d1c9d5de91b3c40d2d9a7d1b5d6199ee39edd49b5849bf075ec68600402b30",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/raw/NOMINAL_TRAJECTORIES.json",
+      "bytes": 41732,
+      "sha256": "712bb28ddd0a8588a9a5f5ed99cb0e94a1849a0003891c2f055f533f19051bbd",
+      "source_locator": "gate1a_compatibility/measured_run_001/raw/NOMINAL_TRAJECTORIES.json",
+      "frozen_source_sha256": "712bb28ddd0a8588a9a5f5ed99cb0e94a1849a0003891c2f055f533f19051bbd",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/raw/PILOT_RESULT.json",
+      "bytes": 1648,
+      "sha256": "0bb5d035b7c7b654069642d1bf6fb65fbdbc6ff125ffd842b2c59e69ba3d1120",
+      "source_locator": "gate1a_compatibility/measured_run_001/raw/PILOT_RESULT.json",
+      "frozen_source_sha256": "383ce3632be63ebe36761e491d1e33bffbc2c07f79a0ee268c7dc195b5e4a04b",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "experiments/gate1a/raw/POSTERIOR_MODE_CHECK.json",
+      "bytes": 90,
+      "sha256": "7135144dec2250c95d3be290cf4b659c603bf6a34cdba9027fa761c895fdd36f",
+      "source_locator": "gate1a_compatibility/measured_run_001/raw/POSTERIOR_MODE_CHECK.json",
+      "frozen_source_sha256": "7135144dec2250c95d3be290cf4b659c603bf6a34cdba9027fa761c895fdd36f",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/raw/READOUT_SUMMARY.json",
+      "bytes": 5246,
+      "sha256": "099a1a57ee4a70aac3d3ca7f326e4f2ed67c22b4820bd9053c33a823af4f53a5",
+      "source_locator": "gate1a_compatibility/measured_run_001/raw/READOUT_SUMMARY.json",
+      "frozen_source_sha256": "099a1a57ee4a70aac3d3ca7f326e4f2ed67c22b4820bd9053c33a823af4f53a5",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/raw/READOUT_TUNING_CANDIDATES.json",
+      "bytes": 2490,
+      "sha256": "9303c66d43c22b0068b3662d2e1f45d9463631d3327915bc6b21471b8e681254",
+      "source_locator": "gate1a_compatibility/measured_run_001/raw/READOUT_TUNING_CANDIDATES.json",
+      "frozen_source_sha256": "9303c66d43c22b0068b3662d2e1f45d9463631d3327915bc6b21471b8e681254",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/raw/RESTRICTED_LOAD_REPORT.json",
+      "bytes": 6376,
+      "sha256": "3a587c62045a7d621e4ef86a491dce40e66440a46d0f2bc9782d0e89ce61785b",
+      "source_locator": "gate1a_compatibility/measured_run_001/raw/RESTRICTED_LOAD_REPORT.json",
+      "frozen_source_sha256": "3a587c62045a7d621e4ef86a491dce40e66440a46d0f2bc9782d0e89ce61785b",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/raw/RUNTIME_SUMMARY.json",
+      "bytes": 3935,
+      "sha256": "ab89c5c0516175d9875b8fb2fc632a83b70a8d6455bc415fc29183085619ffe4",
+      "source_locator": "gate1a_compatibility/measured_run_001/raw/RUNTIME_SUMMARY.json",
+      "frozen_source_sha256": "ab89c5c0516175d9875b8fb2fc632a83b70a8d6455bc415fc29183085619ffe4",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/raw/SUPPORT_ANALYSIS.json",
+      "bytes": 11659,
+      "sha256": "9f0050b459b9503d0189e6f88d9a33bbc8fa2fd496a4377aa479c9ee394ac65b",
+      "source_locator": "gate1a_compatibility/measured_run_001/raw/SUPPORT_ANALYSIS.json",
+      "frozen_source_sha256": "9f0050b459b9503d0189e6f88d9a33bbc8fa2fd496a4377aa479c9ee394ac65b",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/raw/WEIGHT_CORRESPONDENCE.json",
+      "bytes": 205,
+      "sha256": "55d143922aa658a6a5ce8115b65e24a8cfe27327e87846d132ea301360881b41",
+      "source_locator": "gate1a_compatibility/measured_run_001/raw/WEIGHT_CORRESPONDENCE.json",
+      "frozen_source_sha256": "55d143922aa658a6a5ce8115b65e24a8cfe27327e87846d132ea301360881b41",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "experiments/gate1a/scripts/PIXEL_READOUT.py",
+      "bytes": 4499,
+      "sha256": "db38d76131cffa4cc303d1f22c053bfe6c729a10c119049d23683d1738892540",
+      "source_locator": "gate1a_compatibility/measured_run_001/scripts/PIXEL_READOUT.py",
+      "frozen_source_sha256": "db38d76131cffa4cc303d1f22c053bfe6c729a10c119049d23683d1738892540",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "note/README.md",
+      "bytes": 968,
+      "sha256": "837bde139a361b17b4e5627b9cecb7faf41c21d0937c9cae55a1e50cb9e6e22e",
+      "transformation": "new publication documentation / retained-data verification utility"
+    },
+    {
+      "path": "note/Zhijing_Wu_StressDream_Decision_Reliability_Note.pdf",
+      "bytes": 341506,
+      "sha256": "92314529c6a4b74d281bfc9c1496a780537531cc7b790ddf3a85e6a538c37797",
+      "source_locator": "andrea_bajcsy_outreach_package/Zhijing_Wu_StressDream_Decision_Reliability_Note.pdf",
+      "frozen_source_sha256": "06f16616e10fca8c9010a622cdf4a6ac52342e7363f69407f85d13fe4c3a2825",
+      "transformation": "updated original technical-note document/figure; pre-publication source hash retained"
+    },
+    {
+      "path": "note/Zhijing_Wu_StressDream_Decision_Reliability_Note.tex",
+      "bytes": 8914,
+      "sha256": "6ff7db4751ec75d7f67f7d0780ad195284dabc8430b148d1c3407b6188394b7c",
+      "source_locator": "andrea_bajcsy_outreach_package/Zhijing_Wu_StressDream_Decision_Reliability_Note.tex",
+      "frozen_source_sha256": "949a1cf637ad064d0248657c9f64e0d2acb73c971c94fbe044e14643208602af",
+      "transformation": "updated original technical-note document/figure; pre-publication source hash retained"
+    },
+    {
+      "path": "note/evidence/FIGURE_MEASUREMENTS.json",
+      "bytes": 312,
+      "sha256": "4b7550c03ea00c37efb8d4cb588d78a75683cf3d379f2e3d4af9bb93719d81f4",
+      "source_locator": "andrea_bajcsy_outreach_package/evidence/FIGURE_MEASUREMENTS.json",
+      "frozen_source_sha256": "4b7550c03ea00c37efb8d4cb588d78a75683cf3d379f2e3d4af9bb93719d81f4",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "note/figures/decision_pipeline.tex",
+      "bytes": 1292,
+      "sha256": "44db11473d079745e8384adaaa91b8a1a2ee9200ad068d7a45dc09d8ca1a24b5",
+      "source_locator": "andrea_bajcsy_outreach_package/figures/decision_pipeline.tex",
+      "frozen_source_sha256": "44db11473d079745e8384adaaa91b8a1a2ee9200ad068d7a45dc09d8ca1a24b5",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "note/figures/make_readout_figure.py",
+      "bytes": 1765,
+      "sha256": "faf3c56c14a33708940268eb1aec8e8c8720422e557a103cade53e236632e457",
+      "source_locator": "andrea_bajcsy_outreach_package/figures/make_readout_figure.py",
+      "frozen_source_sha256": "faf3c56c14a33708940268eb1aec8e8c8720422e557a103cade53e236632e457",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "note/figures/readout_error.pdf",
+      "bytes": 12677,
+      "sha256": "4892d6295683b8152b00ee4c811ea972944be8c23cebd58450b331f777977c8d",
+      "source_locator": "andrea_bajcsy_outreach_package/figures/readout_error.pdf",
+      "frozen_source_sha256": "4892d6295683b8152b00ee4c811ea972944be8c23cebd58450b331f777977c8d",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "note/figures/readout_error_values.csv",
+      "bytes": 157,
+      "sha256": "12b1d3a78d96ef56e3e726cc9578273561882c36e3d1dfcbb28be082f813b33a",
+      "source_locator": "andrea_bajcsy_outreach_package/figures/readout_error_values.csv",
+      "frozen_source_sha256": "12b1d3a78d96ef56e3e726cc9578273561882c36e3d1dfcbb28be082f813b33a",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "oracle/CONFIG.json",
+      "bytes": 7646,
+      "sha256": "ea903212f8f0b66f92f401befe0890e03391a0f975a5418b62b05818b5af0097",
+      "source_locator": "gate0_oracle_validation/CONFIG.json",
+      "frozen_source_sha256": "ea903212f8f0b66f92f401befe0890e03391a0f975a5418b62b05818b5af0097",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "oracle/ORACLE_IMPLEMENTATION.py",
+      "bytes": 16251,
+      "sha256": "0a62b5afb4fb3fa9b662d7bcd89679ece71ec11fac683f2c3203fd4455fd00e2",
+      "source_locator": "gate0_oracle_validation/ORACLE_IMPLEMENTATION.py",
+      "frozen_source_sha256": "0a62b5afb4fb3fa9b662d7bcd89679ece71ec11fac683f2c3203fd4455fd00e2",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "oracle/ORACLE_UNIT_TESTS.py",
+      "bytes": 7158,
+      "sha256": "cc1183d9c6c632d790c50de0d7111705abe5f1b331945d155d0d7065ad1f9ead",
+      "source_locator": "gate0_oracle_validation/ORACLE_UNIT_TESTS.py",
+      "frozen_source_sha256": "cc1183d9c6c632d790c50de0d7111705abe5f1b331945d155d0d7065ad1f9ead",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "reports/checkpoint_verification.md",
+      "bytes": 3275,
+      "sha256": "55abbcd9003df1ef2a9577ad735ecdb654dc065a4791f2310d1406d6121220ef",
+      "source_locator": "gate1a_compatibility/measured_run_001/CHECKPOINT_VERIFICATION.md",
+      "frozen_source_sha256": "c771a0a25d4901a56db785f97b4ca8c9e1891ffce0b80adc94554a1ee65bc5a7",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "reports/design_diagnosis.md",
+      "bytes": 7341,
+      "sha256": "ca21e6823be1e5f63842d260c0a02c2393f8eb6d8d932a6088d57b2242c3b55f",
+      "source_locator": "gate0b_decision_diversity/DESIGN_DIAGNOSIS.md",
+      "frozen_source_sha256": "977e4573feb71eff579b648e3f832de9ebb669ac553e6a59dd4520ff4a1c114a",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "reports/gate0_validation.md",
+      "bytes": 13004,
+      "sha256": "830161f9fe85524e162de2d8621b0e9f097278da003c58fa518070cac44345cd",
+      "source_locator": "gate0_oracle_validation/GATE0_VALIDATION_REPORT.md",
+      "frozen_source_sha256": "43663c635dde28387cc4e8e77661641fe96840f94774517936287db53c1514fd",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "reports/gate0b_decision_diversity.md",
+      "bytes": 7112,
+      "sha256": "e7c2316c85e9de7d01281e9714191925e27dcc2518657d82f5a479c08c32eb26",
+      "source_locator": "gate0b_decision_diversity/GATE0_VS_GATE0B.md",
+      "frozen_source_sha256": "3a1d712a6a23f5f6a10adac6fd263862a9f733146acac8617449bf33da80c50c",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "reports/gate0b_verdict.md",
+      "bytes": 4323,
+      "sha256": "edd02b07d01f893c3e07fef61977d862dd9b04a7b3ae61c76ecf25d38ff3166d",
+      "source_locator": "gate0b_decision_diversity/GATE0B_FINAL_VERDICT.md",
+      "frozen_source_sha256": "4ae479fa2cc03475eae0252a25ce5c56c3b9629d23703bc33dda90922afff963",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "reports/gate1_readiness_historical.md",
+      "bytes": 5673,
+      "sha256": "056252c7ccfd6e0d22f0d595ae1e7ca1325b47b509883259ca19d3bea88869fa",
+      "source_locator": "gate0_oracle_validation/GATE1_READINESS.md",
+      "frozen_source_sha256": "be2765721d442bce0143017328bbb26bd9fc0e1539dec5c649e13dac8cd71fd8",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "reports/gate1a_measured_results.md",
+      "bytes": 3656,
+      "sha256": "a08dc4a440f6608aa3a459599af1f8135169f014c8761c211e05cb10ec7173e9",
+      "source_locator": "gate1a_compatibility/measured_run_001/GATE1A_MEASURED_REPORT.md",
+      "frozen_source_sha256": "1223b96184a9b7d172cb2fbc9e6dc27c869230f89122f7cafd271738df3da337",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "reports/input_output_measurements.md",
+      "bytes": 3742,
+      "sha256": "3cbebc99d8de4df000c26e65bdfbeb143e93c19fc353c2e461bfeef62d9ff394",
+      "source_locator": "gate1a_compatibility/measured_run_001/INPUT_OUTPUT_MEASUREMENTS.md",
+      "frozen_source_sha256": "3db00580187ef7d993f25edbb6e75c0ffdac2cf5fea6334ea8000c00667821d4",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "reports/method_audit.md",
+      "bytes": 14883,
+      "sha256": "e92a2f1bdb6422eef26a0402bb73e0811bc0cccde369c0ef46968789fcd86bc3",
+      "source_locator": "01_STRESSDREAM_METHOD_AUDIT.md",
+      "frozen_source_sha256": "b92d3a5d48acffe0775cfc80ad7bffe3b605e53b3f8c02ed9ecd2933fca91198",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "reports/minimal_experiment_design.md",
+      "bytes": 17434,
+      "sha256": "2aad0d191b740049ea9efc3447c38c06516035cbde7b29786ea850fdef9036a8",
+      "source_locator": "05_MINIMAL_EXPERIMENT_DESIGN.md",
+      "frozen_source_sha256": "c94a27f5ef3bc7395c767e018e1decd5c78ddcd82496d42ce95e2787780de588",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "reports/model_support_risks.md",
+      "bytes": 7176,
+      "sha256": "92095672f6604789c1d78cc826dfc3ba62e4970e47fe474da5bf5906a197df50",
+      "source_locator": "gate0b_decision_diversity/MODEL_SUPPORT_RISKS.md",
+      "frozen_source_sha256": "9bbfa69b4bada806861bd29a92ebdbd3edca30635c5166311a3aebee27510253",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "reports/oracle_design_spec.md",
+      "bytes": 7503,
+      "sha256": "0ce30cf23c4f7e85aef06ac7694a776c68e66396f0a4841ce0b15d3f020a6b96",
+      "source_locator": "gate0b_decision_diversity/ORACLE_DESIGN_SPEC.md",
+      "frozen_source_sha256": "67d18514e81d3b1ee8118da5052df8309553fb4dd67aa572f4677457736eb22b",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "reports/provenance_matrix.md",
+      "bytes": 9020,
+      "sha256": "fc081be2e5499c1f35e3b61e0e52d7ede9b885b9f80881ff9ed2213a75bce0a6",
+      "source_locator": "gate0_oracle_validation/PROVENANCE_MATRIX.md",
+      "frozen_source_sha256": "49e90d7d9be1a0a2bde55ff77c2f4c4519ee21e4a0e6e51ffc58afdcbb7035b2",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "reports/readout_validation.md",
+      "bytes": 4673,
+      "sha256": "19b0fc41f1f762b2043403250098c974c8258df386d3c00ddcbf09bc6d6ca9a3",
+      "source_locator": "gate1a_compatibility/measured_run_001/READOUT_VALIDATION_RESULTS.md",
+      "frozen_source_sha256": "071c50a8802d270665fe8cbc6dc38a9ab6abe02ce1f7fab98dc70c43d8bc1f9c",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "reports/related_work_and_novelty.md",
+      "bytes": 16934,
+      "sha256": "5b6bb6d21b12c2f596f41ebfa03a15a808abe16446a83444f93b23896ed5ce3a",
+      "source_locator": "03_RELATED_WORK_AND_NOVELTY_CHECK.md",
+      "frozen_source_sha256": "ce8ececacaee1cd5a78e6aa7027e36066436bd7c9e105b58b7c004586a37f967",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "reports/repository_execution_map.md",
+      "bytes": 19068,
+      "sha256": "1cde65d02f0782d5e5846fc59a476038782aa6a9a900a41ff5c3c5285896fa1e",
+      "source_locator": "02_REPOSITORY_EXECUTION_MAP.md",
+      "frozen_source_sha256": "db56e91745c8bbdbfd127cf0af768e45c19f3222cad181217c2c0768f27eee25",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "reports/research_hypotheses.md",
+      "bytes": 12094,
+      "sha256": "261f9a65d6589d53326e7501f85cd0b5fc56b6f433104564ecadc540da340e77",
+      "source_locator": "04_RESEARCH_HYPOTHESES.md",
+      "frozen_source_sha256": "168f5b8701edd15ac8cbb3cf4b471464f0d6588c88278e38d6395e05a1593d00",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "reports/runtime_and_memory.md",
+      "bytes": 2679,
+      "sha256": "e15937cf21bc9f6eb62131dfe21253ff2eefb3ff9a62600ce9a78f2478d9f521",
+      "source_locator": "gate1a_compatibility/measured_run_001/RUNTIME_AND_MEMORY.md",
+      "frozen_source_sha256": "483cdb36463245f04939d143bc7ad45d1f2af2c8d6c336bbb889ad152b233f98",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "reports/scientific_feasibility_verdict.md",
+      "bytes": 2540,
+      "sha256": "cf42d2f5fcd24e182cef4871467e1f8c6ed68973574b54574a4b9c2397b25edb",
+      "source_locator": "gate1a_compatibility/measured_run_001/SCIENTIFIC_FEASIBILITY_VERDICT.md",
+      "frozen_source_sha256": "327a6944cb616fe6fd8ca698e02b114627932618d9ee92cfc36f4fbdd38616a6",
+      "transformation": "public copy; local-path redaction and/or archival-status banner"
+    },
+    {
+      "path": "reproducibility/CLAIMS_AND_EVIDENCE.md",
+      "bytes": 2550,
+      "sha256": "3ce78bbdd6e43f7278c0d79864a2e8f9ecd46da94e32c4e29925df9afad79263",
+      "transformation": "new publication documentation / retained-data verification utility"
+    },
+    {
+      "path": "reproducibility/PUBLICATION_REVIEW.md",
+      "bytes": 2077,
+      "sha256": "4b4c99eeab7043e37c0e2ba33719c8af470bc62a6b8968743243abf3734c2e94",
+      "transformation": "new publication documentation / retained-data verification utility"
+    },
+    {
+      "path": "reproducibility/PUBLIC_CONTENT_MANIFEST.md",
+      "bytes": 8586,
+      "sha256": "79f05dfdb94b89e8734a4285f6da6ebc2d532aa02b6055dec875d9824ed52400",
+      "transformation": "new publication documentation / retained-data verification utility"
+    },
+    {
+      "path": "reproducibility/README.md",
+      "bytes": 2908,
+      "sha256": "3b35fadd79926e37a1ee4bd3e53280a8622bcf12d1e9679de1156e957fb16117",
+      "transformation": "new publication documentation / retained-data verification utility"
+    },
+    {
+      "path": "reproducibility/environment.md",
+      "bytes": 1524,
+      "sha256": "0005e78e1c1e62a629e42f3eb4ae27153c1b212422a5b0cab8b1c321def03b41",
+      "transformation": "new publication documentation / retained-data verification utility"
+    },
+    {
+      "path": "reproducibility/execution_commands.md",
+      "bytes": 1986,
+      "sha256": "8d8095affffcdbfe88b1d579d1f1c44eb64c0fed8e3a842c3fdf23adb788c465",
+      "transformation": "new publication documentation / retained-data verification utility"
+    },
+    {
+      "path": "reproducibility/verify_retained_results.py",
+      "bytes": 3799,
+      "sha256": "64d6f5651ccf38ed507f8a59291dec1d7d251fc4a90ff4b48b7b76496494a1de",
+      "transformation": "new publication documentation / retained-data verification utility"
+    },
+    {
+      "path": "requirements-oracle.txt",
+      "bytes": 14,
+      "sha256": "5f8a0a5496751e59f78165fa342737d786845a8bcea78396999d227dac47940e",
+      "transformation": "new publication documentation / retained-data verification utility"
+    }
+  ]
+}

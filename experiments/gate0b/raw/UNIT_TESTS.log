@@ -1,0 +1,16 @@
+test_cvar_partial_atom (__main__.DesignTests.test_cvar_partial_atom) ... ok
+test_frozen_test_not_touched_by_tests (__main__.DesignTests.test_frozen_test_not_touched_by_tests) ... ok
+test_generator_reproducibility_and_all_quadrants (__main__.DesignTests.test_generator_reproducibility_and_all_quadrants) ... ok
+test_initially_inside_is_unavoidably_infeasible (__main__.DesignTests.test_initially_inside_is_unavoidably_infeasible) ... ok
+test_metrics_and_best_constant_are_population_means (__main__.DesignTests.test_metrics_and_best_constant_are_population_means) ... ok
+test_no_initial_inside_in_gate0_or_design (__main__.DesignTests.test_no_initial_inside_in_gate0_or_design) ... ok
+test_p_changes_expected_progress_not_support (__main__.DesignTests.test_p_changes_expected_progress_not_support) ... ok
+test_rotation_and_reflection_physical_symmetry (__main__.DesignTests.test_rotation_and_reflection_physical_symmetry) ... ok
+test_scalar_terminal_and_expected_scores (__main__.DesignTests.test_scalar_terminal_and_expected_scores) ... ok
+test_signed_support_symmetry_for_every_design_state (__main__.DesignTests.test_signed_support_symmetry_for_every_design_state) ... ok
+test_unsafe_penalty_is_separated_from_feasible_progress (__main__.DesignTests.test_unsafe_penalty_is_separated_from_feasible_progress) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.280s
+
+OK

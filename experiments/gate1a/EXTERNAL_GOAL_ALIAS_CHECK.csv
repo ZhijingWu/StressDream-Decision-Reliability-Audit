@@ -1,0 +1,17 @@
+absolute_difference_error_m2,both_parseable,domain,id_a,id_b,ordering_correct,pixel_goal_distance_difference_m2,radius_m,true_goal_distance_difference_m2
+0.024123299991152036,True,clean,validation_00_clean,validation_08_clean,True,-0.5686831790699378,0.15,-0.5928064790610899
+0.010679358394882432,True,clean,validation_01_clean,validation_09_clean,True,-0.8429978566642431,0.24,-0.8536772150591255
+0.008841882857676953,True,clean,validation_02_clean,validation_10_clean,True,-0.49953805425165565,0.26,-0.4906961713939787
+0.02805555265409687,True,clean,validation_03_clean,validation_11_clean,True,-0.4280469555359573,0.35,-0.45610250819005416
+0.01974388676699912,True,clean,validation_04_clean,validation_12_clean,True,0.6336943091788744,0.5,0.6534381959458735
+0.001806576755609024,True,clean,validation_05_clean,validation_13_clean,True,1.7674948080513537,0.75,1.7656882312957447
+0.02611418948983557,True,clean,validation_06_clean,validation_14_clean,True,3.5818646557806106,1.0,3.555750466290775
+0.013717712860189302,True,clean,validation_07_clean,validation_15_clean,True,4.809937941472661,1.25,4.823655654332851
+0.021197138288012285,True,reconstruction,validation_00_reconstruction,validation_08_reconstruction,True,-0.5716093407730776,0.15,-0.5928064790610899
+0.01465587840816196,True,reconstruction,validation_01_reconstruction,validation_09_reconstruction,True,-0.8390213366509636,0.24,-0.8536772150591255
+0.00545360781730686,True,reconstruction,validation_02_reconstruction,validation_10_reconstruction,True,-0.49614977921128556,0.26,-0.4906961713939787
+0.02357312126127986,True,reconstruction,validation_03_reconstruction,validation_11_reconstruction,True,-0.4325293869287743,0.35,-0.45610250819005416
+0.02346243737327247,True,reconstruction,validation_04_reconstruction,validation_12_reconstruction,True,0.629975758572601,0.5,0.6534381959458735
+0.005311253164013596,True,reconstruction,validation_05_reconstruction,validation_13_reconstruction,True,1.7709994844597583,0.75,1.7656882312957447
+0.03321209071298936,True,reconstruction,validation_06_reconstruction,validation_14_reconstruction,True,3.5889625570037644,1.0,3.555750466290775
+0.014722072652468832,True,reconstruction,validation_07_reconstruction,validation_15_reconstruction,True,4.808933581680382,1.25,4.823655654332851

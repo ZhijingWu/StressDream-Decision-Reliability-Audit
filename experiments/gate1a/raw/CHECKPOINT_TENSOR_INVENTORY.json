@@ -1,0 +1,6632 @@
+{
+  "vae_final.pt": {
+    "model_state_dict": [
+      {
+        "key": "encoder.conv_in.weight",
+        "shape": [
+          32,
+          3,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 864,
+        "finite": true,
+        "min": -0.26327046751976013,
+        "max": 0.26968857645988464
+      },
+      {
+        "key": "encoder.conv_in.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.19614700973033905,
+        "max": 0.22923266887664795
+      },
+      {
+        "key": "encoder.down.0.block.0.norm1.norm.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.9354068636894226,
+        "max": 1.1104825735092163
+      },
+      {
+        "key": "encoder.down.0.block.0.norm1.norm.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.07446913421154022,
+        "max": 0.024983536452054977
+      },
+      {
+        "key": "encoder.down.0.block.0.conv1.weight",
+        "shape": [
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -0.31828004121780396,
+        "max": 0.2635185122489929
+      },
+      {
+        "key": "encoder.down.0.block.0.conv1.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.05790352076292038,
+        "max": 0.05730893090367317
+      },
+      {
+        "key": "encoder.down.0.block.0.norm2.norm.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.9497364163398743,
+        "max": 1.1196768283843994
+      },
+      {
+        "key": "encoder.down.0.block.0.norm2.norm.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.041745420545339584,
+        "max": 0.03937424719333649
+      },
+      {
+        "key": "encoder.down.0.block.0.conv2.weight",
+        "shape": [
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -0.26191768050193787,
+        "max": 0.21138030290603638
+      },
+      {
+        "key": "encoder.down.0.block.0.conv2.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.13512739539146423,
+        "max": 0.1265314519405365
+      },
+      {
+        "key": "encoder.down.0.downsample.conv.weight",
+        "shape": [
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -0.13277624547481537,
+        "max": 0.14946730434894562
+      },
+      {
+        "key": "encoder.down.0.downsample.conv.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.10624463111162186,
+        "max": 0.07604333758354187
+      },
+      {
+        "key": "encoder.down.1.block.0.norm1.norm.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.9516119360923767,
+        "max": 1.1286866664886475
+      },
+      {
+        "key": "encoder.down.1.block.0.norm1.norm.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.10110702365636826,
+        "max": 0.035988934338092804
+      },
+      {
+        "key": "encoder.down.1.block.0.conv1.weight",
+        "shape": [
+          64,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 18432,
+        "finite": true,
+        "min": -0.24520808458328247,
+        "max": 0.2398895025253296
+      },
+      {
+        "key": "encoder.down.1.block.0.conv1.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.09414548426866531,
+        "max": 0.09883634746074677
+      },
+      {
+        "key": "encoder.down.1.block.0.norm2.norm.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 0.8992774486541748,
+        "max": 1.0602514743804932
+      },
+      {
+        "key": "encoder.down.1.block.0.norm2.norm.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.07672177255153656,
+        "max": 0.04110470414161682
+      },
+      {
+        "key": "encoder.down.1.block.0.conv2.weight",
+        "shape": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 36864,
+        "finite": true,
+        "min": -0.254476398229599,
+        "max": 0.23233510553836823
+      },
+      {
+        "key": "encoder.down.1.block.0.conv2.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.08696270734071732,
+        "max": 0.07221057265996933
+      },
+      {
+        "key": "encoder.down.1.block.0.shortcut.weight",
+        "shape": [
+          64,
+          32,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 2048,
+        "finite": true,
+        "min": -0.2221478819847107,
+        "max": 0.21352951228618622
+      },
+      {
+        "key": "encoder.down.1.block.0.shortcut.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.21720682084560394,
+        "max": 0.2123066782951355
+      },
+      {
+        "key": "encoder.down.1.downsample.conv.weight",
+        "shape": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 36864,
+        "finite": true,
+        "min": -0.19622549414634705,
+        "max": 0.19879820942878723
+      },
+      {
+        "key": "encoder.down.1.downsample.conv.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.07945997267961502,
+        "max": 0.07771090418100357
+      },
+      {
+        "key": "encoder.down.2.block.0.norm1.norm.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 0.8810861110687256,
+        "max": 1.1832106113433838
+      },
+      {
+        "key": "encoder.down.2.block.0.norm1.norm.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.13219495117664337,
+        "max": 0.015987448394298553
+      },
+      {
+        "key": "encoder.down.2.block.0.conv1.weight",
+        "shape": [
+          128,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 73728,
+        "finite": true,
+        "min": -0.26480230689048767,
+        "max": 0.22923992574214935
+      },
+      {
+        "key": "encoder.down.2.block.0.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.09065860509872437,
+        "max": 0.08070318400859833
+      },
+      {
+        "key": "encoder.down.2.block.0.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.951923131942749,
+        "max": 1.298892855644226
+      },
+      {
+        "key": "encoder.down.2.block.0.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.09205564111471176,
+        "max": 0.058547306805849075
+      },
+      {
+        "key": "encoder.down.2.block.0.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.2971818447113037,
+        "max": 0.3080621361732483
+      },
+      {
+        "key": "encoder.down.2.block.0.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.13655181229114532,
+        "max": 0.09818203002214432
+      },
+      {
+        "key": "encoder.down.2.block.0.shortcut.weight",
+        "shape": [
+          128,
+          64,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 8192,
+        "finite": true,
+        "min": -0.2038489282131195,
+        "max": 0.222448468208313
+      },
+      {
+        "key": "encoder.down.2.block.0.shortcut.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.14949136972427368,
+        "max": 0.11622032523155212
+      },
+      {
+        "key": "encoder.down.2.downsample.conv.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.29775410890579224,
+        "max": 0.3242632746696472
+      },
+      {
+        "key": "encoder.down.2.downsample.conv.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.05615653842687607,
+        "max": 0.08527908474206924
+      },
+      {
+        "key": "encoder.down.3.block.0.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8218774199485779,
+        "max": 1.3914648294448853
+      },
+      {
+        "key": "encoder.down.3.block.0.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.13144724071025848,
+        "max": 0.07005565613508224
+      },
+      {
+        "key": "encoder.down.3.block.0.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.24900907278060913,
+        "max": 0.21292902529239655
+      },
+      {
+        "key": "encoder.down.3.block.0.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.11467964947223663,
+        "max": 0.0955091342329979
+      },
+      {
+        "key": "encoder.down.3.block.0.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.9574054479598999,
+        "max": 1.3021013736724854
+      },
+      {
+        "key": "encoder.down.3.block.0.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.0698724240064621,
+        "max": 0.06974655389785767
+      },
+      {
+        "key": "encoder.down.3.block.0.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.2741137146949768,
+        "max": 0.2822788655757904
+      },
+      {
+        "key": "encoder.down.3.block.0.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.08218853920698166,
+        "max": 0.06641708314418793
+      },
+      {
+        "key": "encoder.mid.block_1.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8506817817687988,
+        "max": 1.3588050603866577
+      },
+      {
+        "key": "encoder.mid.block_1.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.14575068652629852,
+        "max": 0.031029729172587395
+      },
+      {
+        "key": "encoder.mid.block_1.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.23584593832492828,
+        "max": 0.2433810979127884
+      },
+      {
+        "key": "encoder.mid.block_1.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.12250135093927383,
+        "max": 0.11975801736116409
+      },
+      {
+        "key": "encoder.mid.block_1.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.9852822422981262,
+        "max": 1.3494364023208618
+      },
+      {
+        "key": "encoder.mid.block_1.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.07256858050823212,
+        "max": 0.07146327197551727
+      },
+      {
+        "key": "encoder.mid.block_1.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.23877759277820587,
+        "max": 0.3712628483772278
+      },
+      {
+        "key": "encoder.mid.block_1.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.07592573761940002,
+        "max": 0.0783168151974678
+      },
+      {
+        "key": "encoder.mid.attn_1.norm.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8221108913421631,
+        "max": 1.1063313484191895
+      },
+      {
+        "key": "encoder.mid.attn_1.norm.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.10331540554761887,
+        "max": 0.10710928589105606
+      },
+      {
+        "key": "encoder.mid.attn_1.q.weight",
+        "shape": [
+          128,
+          128,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.18921786546707153,
+        "max": 0.18577206134796143
+      },
+      {
+        "key": "encoder.mid.attn_1.q.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.1748225837945938,
+        "max": 0.16679179668426514
+      },
+      {
+        "key": "encoder.mid.attn_1.k.weight",
+        "shape": [
+          128,
+          128,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.2063603401184082,
+        "max": 0.1784658133983612
+      },
+      {
+        "key": "encoder.mid.attn_1.k.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.08812923729419708,
+        "max": 0.08675355464220047
+      },
+      {
+        "key": "encoder.mid.attn_1.v.weight",
+        "shape": [
+          128,
+          128,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.23631156980991364,
+        "max": 0.212610125541687
+      },
+      {
+        "key": "encoder.mid.attn_1.v.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.12380580604076385,
+        "max": 0.1189160868525505
+      },
+      {
+        "key": "encoder.mid.attn_1.proj_out.weight",
+        "shape": [
+          128,
+          128,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.19940386712551117,
+        "max": 0.19690091907978058
+      },
+      {
+        "key": "encoder.mid.attn_1.proj_out.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.12916529178619385,
+        "max": 0.11614366620779037
+      },
+      {
+        "key": "encoder.mid.block_2.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.7914952635765076,
+        "max": 1.3824858665466309
+      },
+      {
+        "key": "encoder.mid.block_2.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.15928852558135986,
+        "max": 0.045872583985328674
+      },
+      {
+        "key": "encoder.mid.block_2.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.2087436020374298,
+        "max": 0.3330185115337372
+      },
+      {
+        "key": "encoder.mid.block_2.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.09450045973062515,
+        "max": 0.09976649284362793
+      },
+      {
+        "key": "encoder.mid.block_2.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.9789351224899292,
+        "max": 1.3994380235671997
+      },
+      {
+        "key": "encoder.mid.block_2.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.06942154467105865,
+        "max": 0.11403273046016693
+      },
+      {
+        "key": "encoder.mid.block_2.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.24907776713371277,
+        "max": 0.34779730439186096
+      },
+      {
+        "key": "encoder.mid.block_2.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.07691275328397751,
+        "max": 0.08022487163543701
+      },
+      {
+        "key": "encoder.norm_out.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8339060544967651,
+        "max": 1.1988229751586914
+      },
+      {
+        "key": "encoder.norm_out.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.17658494412899017,
+        "max": 0.11930391937494278
+      },
+      {
+        "key": "encoder.conv_out.weight",
+        "shape": [
+          8,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -0.4085577726364136,
+        "max": 0.20336535573005676
+      },
+      {
+        "key": "encoder.conv_out.bias",
+        "shape": [
+          8
+        ],
+        "dtype": "torch.float32",
+        "numel": 8,
+        "finite": true,
+        "min": -0.07283522188663483,
+        "max": 0.09291056543588638
+      },
+      {
+        "key": "decoder.conv_in.weight",
+        "shape": [
+          128,
+          4,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 4608,
+        "finite": true,
+        "min": -0.4704910218715668,
+        "max": 0.40198269486427307
+      },
+      {
+        "key": "decoder.conv_in.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.24144083261489868,
+        "max": 0.3131650984287262
+      },
+      {
+        "key": "decoder.mid.block_1.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8384438753128052,
+        "max": 1.2591257095336914
+      },
+      {
+        "key": "decoder.mid.block_1.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.2228000909090042,
+        "max": 0.02322360686957836
+      },
+      {
+        "key": "decoder.mid.block_1.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.3787533938884735,
+        "max": 0.37271150946617126
+      },
+      {
+        "key": "decoder.mid.block_1.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.1254306137561798,
+        "max": 0.0890229120850563
+      },
+      {
+        "key": "decoder.mid.block_1.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.7557119727134705,
+        "max": 1.269946575164795
+      },
+      {
+        "key": "decoder.mid.block_1.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.19824174046516418,
+        "max": -0.009012908674776554
+      },
+      {
+        "key": "decoder.mid.block_1.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.272411048412323,
+        "max": 0.4005487561225891
+      },
+      {
+        "key": "decoder.mid.block_1.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.05432092398405075,
+        "max": 0.08395206183195114
+      },
+      {
+        "key": "decoder.mid.attn_1.norm.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.7969846129417419,
+        "max": 1.0176066160202026
+      },
+      {
+        "key": "decoder.mid.attn_1.norm.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.11342331022024155,
+        "max": 0.10726740211248398
+      },
+      {
+        "key": "decoder.mid.attn_1.q.weight",
+        "shape": [
+          128,
+          128,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.19476363062858582,
+        "max": 0.20455509424209595
+      },
+      {
+        "key": "decoder.mid.attn_1.q.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.13690978288650513,
+        "max": 0.14377188682556152
+      },
+      {
+        "key": "decoder.mid.attn_1.k.weight",
+        "shape": [
+          128,
+          128,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.18791702389717102,
+        "max": 0.175580695271492
+      },
+      {
+        "key": "decoder.mid.attn_1.k.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.08789227902889252,
+        "max": 0.08715052902698517
+      },
+      {
+        "key": "decoder.mid.attn_1.v.weight",
+        "shape": [
+          128,
+          128,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.17171236872673035,
+        "max": 0.16347113251686096
+      },
+      {
+        "key": "decoder.mid.attn_1.v.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.108992800116539,
+        "max": 0.10251151770353317
+      },
+      {
+        "key": "decoder.mid.attn_1.proj_out.weight",
+        "shape": [
+          128,
+          128,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.16683758795261383,
+        "max": 0.18334248661994934
+      },
+      {
+        "key": "decoder.mid.attn_1.proj_out.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.10543248057365417,
+        "max": 0.1239129900932312
+      },
+      {
+        "key": "decoder.mid.block_2.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8879127502441406,
+        "max": 1.3728119134902954
+      },
+      {
+        "key": "decoder.mid.block_2.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.1655045598745346,
+        "max": 0.03771365061402321
+      },
+      {
+        "key": "decoder.mid.block_2.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.32122501730918884,
+        "max": 0.28713327646255493
+      },
+      {
+        "key": "decoder.mid.block_2.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.04655886068940163,
+        "max": 0.06331934034824371
+      },
+      {
+        "key": "decoder.mid.block_2.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.7300170063972473,
+        "max": 1.1117115020751953
+      },
+      {
+        "key": "decoder.mid.block_2.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.2598952651023865,
+        "max": -0.026569828391075134
+      },
+      {
+        "key": "decoder.mid.block_2.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.28167957067489624,
+        "max": 0.2763529121875763
+      },
+      {
+        "key": "decoder.mid.block_2.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.07236136496067047,
+        "max": 0.07951778918504715
+      },
+      {
+        "key": "decoder.up.0.block.0.norm1.norm.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 0.8965054750442505,
+        "max": 1.274092435836792
+      },
+      {
+        "key": "decoder.up.0.block.0.norm1.norm.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.2699611783027649,
+        "max": 0.1150270402431488
+      },
+      {
+        "key": "decoder.up.0.block.0.conv1.weight",
+        "shape": [
+          32,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 18432,
+        "finite": true,
+        "min": -0.24080434441566467,
+        "max": 0.40020951628685
+      },
+      {
+        "key": "decoder.up.0.block.0.conv1.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.041577957570552826,
+        "max": 0.0410483181476593
+      },
+      {
+        "key": "decoder.up.0.block.0.norm2.norm.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 1.1299629211425781,
+        "max": 1.8730782270431519
+      },
+      {
+        "key": "decoder.up.0.block.0.norm2.norm.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.07492318004369736,
+        "max": 0.24350298941135406
+      },
+      {
+        "key": "decoder.up.0.block.0.conv2.weight",
+        "shape": [
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -0.6053968071937561,
+        "max": 0.4854986369609833
+      },
+      {
+        "key": "decoder.up.0.block.0.conv2.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.058581989258527756,
+        "max": 0.05639175325632095
+      },
+      {
+        "key": "decoder.up.0.block.0.shortcut.weight",
+        "shape": [
+          32,
+          64,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 2048,
+        "finite": true,
+        "min": -0.17508728802204132,
+        "max": 0.20229816436767578
+      },
+      {
+        "key": "decoder.up.0.block.0.shortcut.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.11952691525220871,
+        "max": 0.12271909415721893
+      },
+      {
+        "key": "decoder.up.0.block.1.norm1.norm.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.9367770552635193,
+        "max": 1.209119439125061
+      },
+      {
+        "key": "decoder.up.0.block.1.norm1.norm.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.27888354659080505,
+        "max": 0.4290238916873932
+      },
+      {
+        "key": "decoder.up.0.block.1.conv1.weight",
+        "shape": [
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -0.31988829374313354,
+        "max": 0.23703618347644806
+      },
+      {
+        "key": "decoder.up.0.block.1.conv1.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.05639610439538956,
+        "max": 0.04799040034413338
+      },
+      {
+        "key": "decoder.up.0.block.1.norm2.norm.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 1.085218906402588,
+        "max": 1.5584317445755005
+      },
+      {
+        "key": "decoder.up.0.block.1.norm2.norm.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.5123566389083862,
+        "max": 0.5619978904724121
+      },
+      {
+        "key": "decoder.up.0.block.1.conv2.weight",
+        "shape": [
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -1.0614359378814697,
+        "max": 0.526013970375061
+      },
+      {
+        "key": "decoder.up.0.block.1.conv2.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.05746978521347046,
+        "max": 0.05215456709265709
+      },
+      {
+        "key": "decoder.up.1.block.0.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8737508654594421,
+        "max": 1.2035300731658936
+      },
+      {
+        "key": "decoder.up.1.block.0.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.13989587128162384,
+        "max": 0.0779585912823677
+      },
+      {
+        "key": "decoder.up.1.block.0.conv1.weight",
+        "shape": [
+          64,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 73728,
+        "finite": true,
+        "min": -0.3306155502796173,
+        "max": 0.2831317186355591
+      },
+      {
+        "key": "decoder.up.1.block.0.conv1.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.07256948202848434,
+        "max": 0.08423426002264023
+      },
+      {
+        "key": "decoder.up.1.block.0.norm2.norm.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 0.9681093692779541,
+        "max": 1.5430684089660645
+      },
+      {
+        "key": "decoder.up.1.block.0.norm2.norm.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.24450217187404633,
+        "max": 0.13466498255729675
+      },
+      {
+        "key": "decoder.up.1.block.0.conv2.weight",
+        "shape": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 36864,
+        "finite": true,
+        "min": -0.4346995949745178,
+        "max": 0.49202442169189453
+      },
+      {
+        "key": "decoder.up.1.block.0.conv2.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.10403092205524445,
+        "max": 0.15722015500068665
+      },
+      {
+        "key": "decoder.up.1.block.0.shortcut.weight",
+        "shape": [
+          64,
+          128,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 8192,
+        "finite": true,
+        "min": -0.12401656806468964,
+        "max": 0.13454683125019073
+      },
+      {
+        "key": "decoder.up.1.block.0.shortcut.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.14680589735507965,
+        "max": 0.15661314129829407
+      },
+      {
+        "key": "decoder.up.1.block.1.norm1.norm.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 0.887008011341095,
+        "max": 1.1460915803909302
+      },
+      {
+        "key": "decoder.up.1.block.1.norm1.norm.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.26627233624458313,
+        "max": 0.07230004668235779
+      },
+      {
+        "key": "decoder.up.1.block.1.conv1.weight",
+        "shape": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 36864,
+        "finite": true,
+        "min": -0.2379986196756363,
+        "max": 0.23822346329689026
+      },
+      {
+        "key": "decoder.up.1.block.1.conv1.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.11186648905277252,
+        "max": 0.07494146376848221
+      },
+      {
+        "key": "decoder.up.1.block.1.norm2.norm.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 1.016599416732788,
+        "max": 1.4837838411331177
+      },
+      {
+        "key": "decoder.up.1.block.1.norm2.norm.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.5764064192771912,
+        "max": 0.12474042922258377
+      },
+      {
+        "key": "decoder.up.1.block.1.conv2.weight",
+        "shape": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 36864,
+        "finite": true,
+        "min": -0.39502936601638794,
+        "max": 0.4625547230243683
+      },
+      {
+        "key": "decoder.up.1.block.1.conv2.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.17791013419628143,
+        "max": 0.17416833341121674
+      },
+      {
+        "key": "decoder.up.1.upsample.conv.weight",
+        "shape": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 36864,
+        "finite": true,
+        "min": -0.12187279760837555,
+        "max": 0.1565878689289093
+      },
+      {
+        "key": "decoder.up.1.upsample.conv.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.08430153876543045,
+        "max": 0.10988158732652664
+      },
+      {
+        "key": "decoder.up.2.block.0.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.9014082551002502,
+        "max": 1.2669546604156494
+      },
+      {
+        "key": "decoder.up.2.block.0.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.17710217833518982,
+        "max": 0.03481138125061989
+      },
+      {
+        "key": "decoder.up.2.block.0.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.25065353512763977,
+        "max": 0.36925172805786133
+      },
+      {
+        "key": "decoder.up.2.block.0.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.08578869700431824,
+        "max": 0.10231496393680573
+      },
+      {
+        "key": "decoder.up.2.block.0.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8670823574066162,
+        "max": 1.4829410314559937
+      },
+      {
+        "key": "decoder.up.2.block.0.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.34510982036590576,
+        "max": 0.09883524477481842
+      },
+      {
+        "key": "decoder.up.2.block.0.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.31060561537742615,
+        "max": 0.27706676721572876
+      },
+      {
+        "key": "decoder.up.2.block.0.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.08101031184196472,
+        "max": 0.0717415064573288
+      },
+      {
+        "key": "decoder.up.2.block.1.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.9313256740570068,
+        "max": 1.0868537425994873
+      },
+      {
+        "key": "decoder.up.2.block.1.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.09335741400718689,
+        "max": 0.06899936497211456
+      },
+      {
+        "key": "decoder.up.2.block.1.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.23845043778419495,
+        "max": 0.19448146224021912
+      },
+      {
+        "key": "decoder.up.2.block.1.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.072404645383358,
+        "max": 0.09991129487752914
+      },
+      {
+        "key": "decoder.up.2.block.1.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8795952200889587,
+        "max": 1.0851092338562012
+      },
+      {
+        "key": "decoder.up.2.block.1.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.14501506090164185,
+        "max": 0.05887768790125847
+      },
+      {
+        "key": "decoder.up.2.block.1.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.23435600101947784,
+        "max": 0.23354637622833252
+      },
+      {
+        "key": "decoder.up.2.block.1.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.05825340375304222,
+        "max": 0.06862761825323105
+      },
+      {
+        "key": "decoder.up.2.upsample.conv.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.13724298775196075,
+        "max": 0.1581992208957672
+      },
+      {
+        "key": "decoder.up.2.upsample.conv.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.12966863811016083,
+        "max": 0.1443171203136444
+      },
+      {
+        "key": "decoder.up.3.block.0.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8861325979232788,
+        "max": 1.4506912231445312
+      },
+      {
+        "key": "decoder.up.3.block.0.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.25263044238090515,
+        "max": 0.011813133955001831
+      },
+      {
+        "key": "decoder.up.3.block.0.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.34225377440452576,
+        "max": 0.2733727991580963
+      },
+      {
+        "key": "decoder.up.3.block.0.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.06828217953443527,
+        "max": 0.0610077902674675
+      },
+      {
+        "key": "decoder.up.3.block.0.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.7867798209190369,
+        "max": 1.0882396697998047
+      },
+      {
+        "key": "decoder.up.3.block.0.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.2326231747865677,
+        "max": -0.014154254458844662
+      },
+      {
+        "key": "decoder.up.3.block.0.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.22831201553344727,
+        "max": 0.19968608021736145
+      },
+      {
+        "key": "decoder.up.3.block.0.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.08250303566455841,
+        "max": 0.06732787936925888
+      },
+      {
+        "key": "decoder.up.3.block.1.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.9155164957046509,
+        "max": 1.166456937789917
+      },
+      {
+        "key": "decoder.up.3.block.1.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.08419930189847946,
+        "max": 0.06784272193908691
+      },
+      {
+        "key": "decoder.up.3.block.1.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.3329981863498688,
+        "max": 0.1581222414970398
+      },
+      {
+        "key": "decoder.up.3.block.1.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.07063035666942596,
+        "max": 0.06693083047866821
+      },
+      {
+        "key": "decoder.up.3.block.1.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.7689864039421082,
+        "max": 1.0469416379928589
+      },
+      {
+        "key": "decoder.up.3.block.1.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.15228232741355896,
+        "max": 0.008693130686879158
+      },
+      {
+        "key": "decoder.up.3.block.1.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.15084753930568695,
+        "max": 0.14738695323467255
+      },
+      {
+        "key": "decoder.up.3.block.1.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.06507755070924759,
+        "max": 0.078249491751194
+      },
+      {
+        "key": "decoder.up.3.upsample.conv.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.15896959602832794,
+        "max": 0.14104637503623962
+      },
+      {
+        "key": "decoder.up.3.upsample.conv.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.08974108099937439,
+        "max": 0.09376873821020126
+      },
+      {
+        "key": "decoder.norm_out.norm.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.8940023183822632,
+        "max": 1.1542714834213257
+      },
+      {
+        "key": "decoder.norm_out.norm.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.1993817538022995,
+        "max": 0.25129595398902893
+      },
+      {
+        "key": "decoder.conv_out.weight",
+        "shape": [
+          3,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 864,
+        "finite": true,
+        "min": -0.14267532527446747,
+        "max": 0.12465310841798782
+      },
+      {
+        "key": "decoder.conv_out.bias",
+        "shape": [
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 3,
+        "finite": true,
+        "min": 0.31702497601509094,
+        "max": 0.32427650690078735
+      },
+      {
+        "key": "quant_conv.weight",
+        "shape": [
+          8,
+          8,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.5969810485839844,
+        "max": 0.6174789071083069
+      },
+      {
+        "key": "quant_conv.bias",
+        "shape": [
+          8
+        ],
+        "dtype": "torch.float32",
+        "numel": 8,
+        "finite": true,
+        "min": -0.12837213277816772,
+        "max": 0.17276176810264587
+      },
+      {
+        "key": "post_quant_conv.weight",
+        "shape": [
+          4,
+          4,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 16,
+        "finite": true,
+        "min": -0.628714382648468,
+        "max": 0.5179681181907654
+      },
+      {
+        "key": "post_quant_conv.bias",
+        "shape": [
+          4
+        ],
+        "dtype": "torch.float32",
+        "numel": 4,
+        "finite": true,
+        "min": 0.0661056712269783,
+        "max": 0.3195435702800751
+      }
+    ],
+    "prediction_heads_state_dict": [
+      {
+        "key": "margin_head.encoder.conv_layers.0.weight",
+        "shape": [
+          64,
+          4,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 2304,
+        "finite": true,
+        "min": -0.578233003616333,
+        "max": 0.7153307199478149
+      },
+      {
+        "key": "margin_head.encoder.conv_layers.0.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.12043501436710358,
+        "max": 0.16683420538902283
+      },
+      {
+        "key": "margin_head.encoder.conv_layers.1.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 0.8900629281997681,
+        "max": 1.3463448286056519
+      },
+      {
+        "key": "margin_head.encoder.conv_layers.1.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.1394149512052536,
+        "max": 0.09658698737621307
+      },
+      {
+        "key": "margin_head.encoder.conv_layers.3.weight",
+        "shape": [
+          128,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 73728,
+        "finite": true,
+        "min": -0.5789860486984253,
+        "max": 0.5472367405891418
+      },
+      {
+        "key": "margin_head.encoder.conv_layers.3.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.0720105841755867,
+        "max": 0.15929308533668518
+      },
+      {
+        "key": "margin_head.encoder.conv_layers.4.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.5386929512023926,
+        "max": 1.1542541980743408
+      },
+      {
+        "key": "margin_head.encoder.conv_layers.4.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.39402899146080017,
+        "max": 0.03509596362709999
+      },
+      {
+        "key": "margin_head.encoder.proj.weight",
+        "shape": [
+          256,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 32768,
+        "finite": true,
+        "min": -0.4357520639896393,
+        "max": 0.4799683094024658
+      },
+      {
+        "key": "margin_head.encoder.proj.bias",
+        "shape": [
+          256
+        ],
+        "dtype": "torch.float32",
+        "numel": 256,
+        "finite": true,
+        "min": -0.10990052670240402,
+        "max": 0.1038181260228157
+      },
+      {
+        "key": "margin_head.mlp.0.weight",
+        "shape": [
+          1,
+          256
+        ],
+        "dtype": "torch.float32",
+        "numel": 256,
+        "finite": true,
+        "min": -0.11153709888458252,
+        "max": 0.1183885782957077
+      },
+      {
+        "key": "margin_head.mlp.0.bias",
+        "shape": [
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 1,
+        "finite": true,
+        "min": 0.008368096314370632,
+        "max": 0.008368096314370632
+      },
+      {
+        "key": "done_head.encoder.conv_layers.0.weight",
+        "shape": [
+          64,
+          4,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 2304,
+        "finite": true,
+        "min": -0.44180330634117126,
+        "max": 0.47098156809806824
+      },
+      {
+        "key": "done_head.encoder.conv_layers.0.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.1670158952474594,
+        "max": 0.08206696063280106
+      },
+      {
+        "key": "done_head.encoder.conv_layers.1.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 0.7548748254776001,
+        "max": 1.1729403734207153
+      },
+      {
+        "key": "done_head.encoder.conv_layers.1.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.40204736590385437,
+        "max": -0.017178447917103767
+      },
+      {
+        "key": "done_head.encoder.conv_layers.3.weight",
+        "shape": [
+          128,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 73728,
+        "finite": true,
+        "min": -0.437923401594162,
+        "max": 0.509381890296936
+      },
+      {
+        "key": "done_head.encoder.conv_layers.3.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.09958203136920929,
+        "max": 0.1490219384431839
+      },
+      {
+        "key": "done_head.encoder.conv_layers.4.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.5001893043518066,
+        "max": 1.3188797235488892
+      },
+      {
+        "key": "done_head.encoder.conv_layers.4.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.26415345072746277,
+        "max": 0.032360952347517014
+      },
+      {
+        "key": "done_head.encoder.proj.weight",
+        "shape": [
+          256,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 32768,
+        "finite": true,
+        "min": -0.4174540042877197,
+        "max": 0.4011615216732025
+      },
+      {
+        "key": "done_head.encoder.proj.bias",
+        "shape": [
+          256
+        ],
+        "dtype": "torch.float32",
+        "numel": 256,
+        "finite": true,
+        "min": -0.13195380568504333,
+        "max": 0.13794687390327454
+      },
+      {
+        "key": "done_head.mlp.0.weight",
+        "shape": [
+          1,
+          256
+        ],
+        "dtype": "torch.float32",
+        "numel": 256,
+        "finite": true,
+        "min": -0.14389272034168243,
+        "max": 0.19989743828773499
+      },
+      {
+        "key": "done_head.mlp.0.bias",
+        "shape": [
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 1,
+        "finite": true,
+        "min": -0.03791351243853569,
+        "max": -0.03791351243853569
+      }
+    ]
+  },
+  "world_model_latest.pt": {
+    "model_state_dict": [
+      {
+        "key": "vae.encoder.conv_in.weight",
+        "shape": [
+          32,
+          3,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 864,
+        "finite": true,
+        "min": -0.26327046751976013,
+        "max": 0.26968857645988464
+      },
+      {
+        "key": "vae.encoder.conv_in.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.19614700973033905,
+        "max": 0.22923266887664795
+      },
+      {
+        "key": "vae.encoder.down.0.block.0.norm1.norm.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.9354068636894226,
+        "max": 1.1104825735092163
+      },
+      {
+        "key": "vae.encoder.down.0.block.0.norm1.norm.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.07446913421154022,
+        "max": 0.024983536452054977
+      },
+      {
+        "key": "vae.encoder.down.0.block.0.conv1.weight",
+        "shape": [
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -0.31828004121780396,
+        "max": 0.2635185122489929
+      },
+      {
+        "key": "vae.encoder.down.0.block.0.conv1.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.05790352076292038,
+        "max": 0.05730893090367317
+      },
+      {
+        "key": "vae.encoder.down.0.block.0.norm2.norm.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.9497364163398743,
+        "max": 1.1196768283843994
+      },
+      {
+        "key": "vae.encoder.down.0.block.0.norm2.norm.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.041745420545339584,
+        "max": 0.03937424719333649
+      },
+      {
+        "key": "vae.encoder.down.0.block.0.conv2.weight",
+        "shape": [
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -0.26191768050193787,
+        "max": 0.21138030290603638
+      },
+      {
+        "key": "vae.encoder.down.0.block.0.conv2.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.13512739539146423,
+        "max": 0.1265314519405365
+      },
+      {
+        "key": "vae.encoder.down.0.downsample.conv.weight",
+        "shape": [
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -0.13277624547481537,
+        "max": 0.14946730434894562
+      },
+      {
+        "key": "vae.encoder.down.0.downsample.conv.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.10624463111162186,
+        "max": 0.07604333758354187
+      },
+      {
+        "key": "vae.encoder.down.1.block.0.norm1.norm.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.9516119360923767,
+        "max": 1.1286866664886475
+      },
+      {
+        "key": "vae.encoder.down.1.block.0.norm1.norm.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.10110702365636826,
+        "max": 0.035988934338092804
+      },
+      {
+        "key": "vae.encoder.down.1.block.0.conv1.weight",
+        "shape": [
+          64,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 18432,
+        "finite": true,
+        "min": -0.24520808458328247,
+        "max": 0.2398895025253296
+      },
+      {
+        "key": "vae.encoder.down.1.block.0.conv1.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.09414548426866531,
+        "max": 0.09883634746074677
+      },
+      {
+        "key": "vae.encoder.down.1.block.0.norm2.norm.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 0.8992774486541748,
+        "max": 1.0602514743804932
+      },
+      {
+        "key": "vae.encoder.down.1.block.0.norm2.norm.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.07672177255153656,
+        "max": 0.04110470414161682
+      },
+      {
+        "key": "vae.encoder.down.1.block.0.conv2.weight",
+        "shape": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 36864,
+        "finite": true,
+        "min": -0.254476398229599,
+        "max": 0.23233510553836823
+      },
+      {
+        "key": "vae.encoder.down.1.block.0.conv2.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.08696270734071732,
+        "max": 0.07221057265996933
+      },
+      {
+        "key": "vae.encoder.down.1.block.0.shortcut.weight",
+        "shape": [
+          64,
+          32,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 2048,
+        "finite": true,
+        "min": -0.2221478819847107,
+        "max": 0.21352951228618622
+      },
+      {
+        "key": "vae.encoder.down.1.block.0.shortcut.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.21720682084560394,
+        "max": 0.2123066782951355
+      },
+      {
+        "key": "vae.encoder.down.1.downsample.conv.weight",
+        "shape": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 36864,
+        "finite": true,
+        "min": -0.19622549414634705,
+        "max": 0.19879820942878723
+      },
+      {
+        "key": "vae.encoder.down.1.downsample.conv.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.07945997267961502,
+        "max": 0.07771090418100357
+      },
+      {
+        "key": "vae.encoder.down.2.block.0.norm1.norm.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 0.8810861110687256,
+        "max": 1.1832106113433838
+      },
+      {
+        "key": "vae.encoder.down.2.block.0.norm1.norm.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.13219495117664337,
+        "max": 0.015987448394298553
+      },
+      {
+        "key": "vae.encoder.down.2.block.0.conv1.weight",
+        "shape": [
+          128,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 73728,
+        "finite": true,
+        "min": -0.26480230689048767,
+        "max": 0.22923992574214935
+      },
+      {
+        "key": "vae.encoder.down.2.block.0.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.09065860509872437,
+        "max": 0.08070318400859833
+      },
+      {
+        "key": "vae.encoder.down.2.block.0.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.951923131942749,
+        "max": 1.298892855644226
+      },
+      {
+        "key": "vae.encoder.down.2.block.0.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.09205564111471176,
+        "max": 0.058547306805849075
+      },
+      {
+        "key": "vae.encoder.down.2.block.0.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.2971818447113037,
+        "max": 0.3080621361732483
+      },
+      {
+        "key": "vae.encoder.down.2.block.0.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.13655181229114532,
+        "max": 0.09818203002214432
+      },
+      {
+        "key": "vae.encoder.down.2.block.0.shortcut.weight",
+        "shape": [
+          128,
+          64,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 8192,
+        "finite": true,
+        "min": -0.2038489282131195,
+        "max": 0.222448468208313
+      },
+      {
+        "key": "vae.encoder.down.2.block.0.shortcut.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.14949136972427368,
+        "max": 0.11622032523155212
+      },
+      {
+        "key": "vae.encoder.down.2.downsample.conv.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.29775410890579224,
+        "max": 0.3242632746696472
+      },
+      {
+        "key": "vae.encoder.down.2.downsample.conv.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.05615653842687607,
+        "max": 0.08527908474206924
+      },
+      {
+        "key": "vae.encoder.down.3.block.0.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8218774199485779,
+        "max": 1.3914648294448853
+      },
+      {
+        "key": "vae.encoder.down.3.block.0.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.13144724071025848,
+        "max": 0.07005565613508224
+      },
+      {
+        "key": "vae.encoder.down.3.block.0.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.24900907278060913,
+        "max": 0.21292902529239655
+      },
+      {
+        "key": "vae.encoder.down.3.block.0.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.11467964947223663,
+        "max": 0.0955091342329979
+      },
+      {
+        "key": "vae.encoder.down.3.block.0.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.9574054479598999,
+        "max": 1.3021013736724854
+      },
+      {
+        "key": "vae.encoder.down.3.block.0.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.0698724240064621,
+        "max": 0.06974655389785767
+      },
+      {
+        "key": "vae.encoder.down.3.block.0.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.2741137146949768,
+        "max": 0.2822788655757904
+      },
+      {
+        "key": "vae.encoder.down.3.block.0.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.08218853920698166,
+        "max": 0.06641708314418793
+      },
+      {
+        "key": "vae.encoder.mid.block_1.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8506817817687988,
+        "max": 1.3588050603866577
+      },
+      {
+        "key": "vae.encoder.mid.block_1.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.14575068652629852,
+        "max": 0.031029729172587395
+      },
+      {
+        "key": "vae.encoder.mid.block_1.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.23584593832492828,
+        "max": 0.2433810979127884
+      },
+      {
+        "key": "vae.encoder.mid.block_1.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.12250135093927383,
+        "max": 0.11975801736116409
+      },
+      {
+        "key": "vae.encoder.mid.block_1.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.9852822422981262,
+        "max": 1.3494364023208618
+      },
+      {
+        "key": "vae.encoder.mid.block_1.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.07256858050823212,
+        "max": 0.07146327197551727
+      },
+      {
+        "key": "vae.encoder.mid.block_1.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.23877759277820587,
+        "max": 0.3712628483772278
+      },
+      {
+        "key": "vae.encoder.mid.block_1.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.07592573761940002,
+        "max": 0.0783168151974678
+      },
+      {
+        "key": "vae.encoder.mid.attn_1.norm.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8221108913421631,
+        "max": 1.1063313484191895
+      },
+      {
+        "key": "vae.encoder.mid.attn_1.norm.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.10331540554761887,
+        "max": 0.10710928589105606
+      },
+      {
+        "key": "vae.encoder.mid.attn_1.q.weight",
+        "shape": [
+          128,
+          128,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.18921786546707153,
+        "max": 0.18577206134796143
+      },
+      {
+        "key": "vae.encoder.mid.attn_1.q.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.1748225837945938,
+        "max": 0.16679179668426514
+      },
+      {
+        "key": "vae.encoder.mid.attn_1.k.weight",
+        "shape": [
+          128,
+          128,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.2063603401184082,
+        "max": 0.1784658133983612
+      },
+      {
+        "key": "vae.encoder.mid.attn_1.k.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.08812923729419708,
+        "max": 0.08675355464220047
+      },
+      {
+        "key": "vae.encoder.mid.attn_1.v.weight",
+        "shape": [
+          128,
+          128,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.23631156980991364,
+        "max": 0.212610125541687
+      },
+      {
+        "key": "vae.encoder.mid.attn_1.v.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.12380580604076385,
+        "max": 0.1189160868525505
+      },
+      {
+        "key": "vae.encoder.mid.attn_1.proj_out.weight",
+        "shape": [
+          128,
+          128,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.19940386712551117,
+        "max": 0.19690091907978058
+      },
+      {
+        "key": "vae.encoder.mid.attn_1.proj_out.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.12916529178619385,
+        "max": 0.11614366620779037
+      },
+      {
+        "key": "vae.encoder.mid.block_2.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.7914952635765076,
+        "max": 1.3824858665466309
+      },
+      {
+        "key": "vae.encoder.mid.block_2.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.15928852558135986,
+        "max": 0.045872583985328674
+      },
+      {
+        "key": "vae.encoder.mid.block_2.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.2087436020374298,
+        "max": 0.3330185115337372
+      },
+      {
+        "key": "vae.encoder.mid.block_2.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.09450045973062515,
+        "max": 0.09976649284362793
+      },
+      {
+        "key": "vae.encoder.mid.block_2.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.9789351224899292,
+        "max": 1.3994380235671997
+      },
+      {
+        "key": "vae.encoder.mid.block_2.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.06942154467105865,
+        "max": 0.11403273046016693
+      },
+      {
+        "key": "vae.encoder.mid.block_2.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.24907776713371277,
+        "max": 0.34779730439186096
+      },
+      {
+        "key": "vae.encoder.mid.block_2.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.07691275328397751,
+        "max": 0.08022487163543701
+      },
+      {
+        "key": "vae.encoder.norm_out.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8339060544967651,
+        "max": 1.1988229751586914
+      },
+      {
+        "key": "vae.encoder.norm_out.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.17658494412899017,
+        "max": 0.11930391937494278
+      },
+      {
+        "key": "vae.encoder.conv_out.weight",
+        "shape": [
+          8,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -0.4085577726364136,
+        "max": 0.20336535573005676
+      },
+      {
+        "key": "vae.encoder.conv_out.bias",
+        "shape": [
+          8
+        ],
+        "dtype": "torch.float32",
+        "numel": 8,
+        "finite": true,
+        "min": -0.07283522188663483,
+        "max": 0.09291056543588638
+      },
+      {
+        "key": "vae.decoder.conv_in.weight",
+        "shape": [
+          128,
+          4,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 4608,
+        "finite": true,
+        "min": -0.4704910218715668,
+        "max": 0.40198269486427307
+      },
+      {
+        "key": "vae.decoder.conv_in.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.24144083261489868,
+        "max": 0.3131650984287262
+      },
+      {
+        "key": "vae.decoder.mid.block_1.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8384438753128052,
+        "max": 1.2591257095336914
+      },
+      {
+        "key": "vae.decoder.mid.block_1.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.2228000909090042,
+        "max": 0.02322360686957836
+      },
+      {
+        "key": "vae.decoder.mid.block_1.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.3787533938884735,
+        "max": 0.37271150946617126
+      },
+      {
+        "key": "vae.decoder.mid.block_1.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.1254306137561798,
+        "max": 0.0890229120850563
+      },
+      {
+        "key": "vae.decoder.mid.block_1.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.7557119727134705,
+        "max": 1.269946575164795
+      },
+      {
+        "key": "vae.decoder.mid.block_1.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.19824174046516418,
+        "max": -0.009012908674776554
+      },
+      {
+        "key": "vae.decoder.mid.block_1.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.272411048412323,
+        "max": 0.4005487561225891
+      },
+      {
+        "key": "vae.decoder.mid.block_1.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.05432092398405075,
+        "max": 0.08395206183195114
+      },
+      {
+        "key": "vae.decoder.mid.attn_1.norm.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.7969846129417419,
+        "max": 1.0176066160202026
+      },
+      {
+        "key": "vae.decoder.mid.attn_1.norm.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.11342331022024155,
+        "max": 0.10726740211248398
+      },
+      {
+        "key": "vae.decoder.mid.attn_1.q.weight",
+        "shape": [
+          128,
+          128,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.19476363062858582,
+        "max": 0.20455509424209595
+      },
+      {
+        "key": "vae.decoder.mid.attn_1.q.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.13690978288650513,
+        "max": 0.14377188682556152
+      },
+      {
+        "key": "vae.decoder.mid.attn_1.k.weight",
+        "shape": [
+          128,
+          128,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.18791702389717102,
+        "max": 0.175580695271492
+      },
+      {
+        "key": "vae.decoder.mid.attn_1.k.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.08789227902889252,
+        "max": 0.08715052902698517
+      },
+      {
+        "key": "vae.decoder.mid.attn_1.v.weight",
+        "shape": [
+          128,
+          128,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.17171236872673035,
+        "max": 0.16347113251686096
+      },
+      {
+        "key": "vae.decoder.mid.attn_1.v.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.108992800116539,
+        "max": 0.10251151770353317
+      },
+      {
+        "key": "vae.decoder.mid.attn_1.proj_out.weight",
+        "shape": [
+          128,
+          128,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.16683758795261383,
+        "max": 0.18334248661994934
+      },
+      {
+        "key": "vae.decoder.mid.attn_1.proj_out.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.10543248057365417,
+        "max": 0.1239129900932312
+      },
+      {
+        "key": "vae.decoder.mid.block_2.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8879127502441406,
+        "max": 1.3728119134902954
+      },
+      {
+        "key": "vae.decoder.mid.block_2.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.1655045598745346,
+        "max": 0.03771365061402321
+      },
+      {
+        "key": "vae.decoder.mid.block_2.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.32122501730918884,
+        "max": 0.28713327646255493
+      },
+      {
+        "key": "vae.decoder.mid.block_2.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.04655886068940163,
+        "max": 0.06331934034824371
+      },
+      {
+        "key": "vae.decoder.mid.block_2.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.7300170063972473,
+        "max": 1.1117115020751953
+      },
+      {
+        "key": "vae.decoder.mid.block_2.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.2598952651023865,
+        "max": -0.026569828391075134
+      },
+      {
+        "key": "vae.decoder.mid.block_2.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.28167957067489624,
+        "max": 0.2763529121875763
+      },
+      {
+        "key": "vae.decoder.mid.block_2.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.07236136496067047,
+        "max": 0.07951778918504715
+      },
+      {
+        "key": "vae.decoder.up.0.block.0.norm1.norm.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 0.8965054750442505,
+        "max": 1.274092435836792
+      },
+      {
+        "key": "vae.decoder.up.0.block.0.norm1.norm.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.2699611783027649,
+        "max": 0.1150270402431488
+      },
+      {
+        "key": "vae.decoder.up.0.block.0.conv1.weight",
+        "shape": [
+          32,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 18432,
+        "finite": true,
+        "min": -0.24080434441566467,
+        "max": 0.40020951628685
+      },
+      {
+        "key": "vae.decoder.up.0.block.0.conv1.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.041577957570552826,
+        "max": 0.0410483181476593
+      },
+      {
+        "key": "vae.decoder.up.0.block.0.norm2.norm.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 1.1299629211425781,
+        "max": 1.8730782270431519
+      },
+      {
+        "key": "vae.decoder.up.0.block.0.norm2.norm.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.07492318004369736,
+        "max": 0.24350298941135406
+      },
+      {
+        "key": "vae.decoder.up.0.block.0.conv2.weight",
+        "shape": [
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -0.6053968071937561,
+        "max": 0.4854986369609833
+      },
+      {
+        "key": "vae.decoder.up.0.block.0.conv2.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.058581989258527756,
+        "max": 0.05639175325632095
+      },
+      {
+        "key": "vae.decoder.up.0.block.0.shortcut.weight",
+        "shape": [
+          32,
+          64,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 2048,
+        "finite": true,
+        "min": -0.17508728802204132,
+        "max": 0.20229816436767578
+      },
+      {
+        "key": "vae.decoder.up.0.block.0.shortcut.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.11952691525220871,
+        "max": 0.12271909415721893
+      },
+      {
+        "key": "vae.decoder.up.0.block.1.norm1.norm.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.9367770552635193,
+        "max": 1.209119439125061
+      },
+      {
+        "key": "vae.decoder.up.0.block.1.norm1.norm.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.27888354659080505,
+        "max": 0.4290238916873932
+      },
+      {
+        "key": "vae.decoder.up.0.block.1.conv1.weight",
+        "shape": [
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -0.31988829374313354,
+        "max": 0.23703618347644806
+      },
+      {
+        "key": "vae.decoder.up.0.block.1.conv1.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.05639610439538956,
+        "max": 0.04799040034413338
+      },
+      {
+        "key": "vae.decoder.up.0.block.1.norm2.norm.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 1.085218906402588,
+        "max": 1.5584317445755005
+      },
+      {
+        "key": "vae.decoder.up.0.block.1.norm2.norm.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.5123566389083862,
+        "max": 0.5619978904724121
+      },
+      {
+        "key": "vae.decoder.up.0.block.1.conv2.weight",
+        "shape": [
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -1.0614359378814697,
+        "max": 0.526013970375061
+      },
+      {
+        "key": "vae.decoder.up.0.block.1.conv2.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.05746978521347046,
+        "max": 0.05215456709265709
+      },
+      {
+        "key": "vae.decoder.up.1.block.0.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8737508654594421,
+        "max": 1.2035300731658936
+      },
+      {
+        "key": "vae.decoder.up.1.block.0.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.13989587128162384,
+        "max": 0.0779585912823677
+      },
+      {
+        "key": "vae.decoder.up.1.block.0.conv1.weight",
+        "shape": [
+          64,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 73728,
+        "finite": true,
+        "min": -0.3306155502796173,
+        "max": 0.2831317186355591
+      },
+      {
+        "key": "vae.decoder.up.1.block.0.conv1.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.07256948202848434,
+        "max": 0.08423426002264023
+      },
+      {
+        "key": "vae.decoder.up.1.block.0.norm2.norm.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 0.9681093692779541,
+        "max": 1.5430684089660645
+      },
+      {
+        "key": "vae.decoder.up.1.block.0.norm2.norm.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.24450217187404633,
+        "max": 0.13466498255729675
+      },
+      {
+        "key": "vae.decoder.up.1.block.0.conv2.weight",
+        "shape": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 36864,
+        "finite": true,
+        "min": -0.4346995949745178,
+        "max": 0.49202442169189453
+      },
+      {
+        "key": "vae.decoder.up.1.block.0.conv2.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.10403092205524445,
+        "max": 0.15722015500068665
+      },
+      {
+        "key": "vae.decoder.up.1.block.0.shortcut.weight",
+        "shape": [
+          64,
+          128,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 8192,
+        "finite": true,
+        "min": -0.12401656806468964,
+        "max": 0.13454683125019073
+      },
+      {
+        "key": "vae.decoder.up.1.block.0.shortcut.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.14680589735507965,
+        "max": 0.15661314129829407
+      },
+      {
+        "key": "vae.decoder.up.1.block.1.norm1.norm.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 0.887008011341095,
+        "max": 1.1460915803909302
+      },
+      {
+        "key": "vae.decoder.up.1.block.1.norm1.norm.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.26627233624458313,
+        "max": 0.07230004668235779
+      },
+      {
+        "key": "vae.decoder.up.1.block.1.conv1.weight",
+        "shape": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 36864,
+        "finite": true,
+        "min": -0.2379986196756363,
+        "max": 0.23822346329689026
+      },
+      {
+        "key": "vae.decoder.up.1.block.1.conv1.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.11186648905277252,
+        "max": 0.07494146376848221
+      },
+      {
+        "key": "vae.decoder.up.1.block.1.norm2.norm.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 1.016599416732788,
+        "max": 1.4837838411331177
+      },
+      {
+        "key": "vae.decoder.up.1.block.1.norm2.norm.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.5764064192771912,
+        "max": 0.12474042922258377
+      },
+      {
+        "key": "vae.decoder.up.1.block.1.conv2.weight",
+        "shape": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 36864,
+        "finite": true,
+        "min": -0.39502936601638794,
+        "max": 0.4625547230243683
+      },
+      {
+        "key": "vae.decoder.up.1.block.1.conv2.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.17791013419628143,
+        "max": 0.17416833341121674
+      },
+      {
+        "key": "vae.decoder.up.1.upsample.conv.weight",
+        "shape": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 36864,
+        "finite": true,
+        "min": -0.12187279760837555,
+        "max": 0.1565878689289093
+      },
+      {
+        "key": "vae.decoder.up.1.upsample.conv.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.08430153876543045,
+        "max": 0.10988158732652664
+      },
+      {
+        "key": "vae.decoder.up.2.block.0.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.9014082551002502,
+        "max": 1.2669546604156494
+      },
+      {
+        "key": "vae.decoder.up.2.block.0.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.17710217833518982,
+        "max": 0.03481138125061989
+      },
+      {
+        "key": "vae.decoder.up.2.block.0.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.25065353512763977,
+        "max": 0.36925172805786133
+      },
+      {
+        "key": "vae.decoder.up.2.block.0.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.08578869700431824,
+        "max": 0.10231496393680573
+      },
+      {
+        "key": "vae.decoder.up.2.block.0.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8670823574066162,
+        "max": 1.4829410314559937
+      },
+      {
+        "key": "vae.decoder.up.2.block.0.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.34510982036590576,
+        "max": 0.09883524477481842
+      },
+      {
+        "key": "vae.decoder.up.2.block.0.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.31060561537742615,
+        "max": 0.27706676721572876
+      },
+      {
+        "key": "vae.decoder.up.2.block.0.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.08101031184196472,
+        "max": 0.0717415064573288
+      },
+      {
+        "key": "vae.decoder.up.2.block.1.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.9313256740570068,
+        "max": 1.0868537425994873
+      },
+      {
+        "key": "vae.decoder.up.2.block.1.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.09335741400718689,
+        "max": 0.06899936497211456
+      },
+      {
+        "key": "vae.decoder.up.2.block.1.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.23845043778419495,
+        "max": 0.19448146224021912
+      },
+      {
+        "key": "vae.decoder.up.2.block.1.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.072404645383358,
+        "max": 0.09991129487752914
+      },
+      {
+        "key": "vae.decoder.up.2.block.1.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8795952200889587,
+        "max": 1.0851092338562012
+      },
+      {
+        "key": "vae.decoder.up.2.block.1.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.14501506090164185,
+        "max": 0.05887768790125847
+      },
+      {
+        "key": "vae.decoder.up.2.block.1.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.23435600101947784,
+        "max": 0.23354637622833252
+      },
+      {
+        "key": "vae.decoder.up.2.block.1.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.05825340375304222,
+        "max": 0.06862761825323105
+      },
+      {
+        "key": "vae.decoder.up.2.upsample.conv.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.13724298775196075,
+        "max": 0.1581992208957672
+      },
+      {
+        "key": "vae.decoder.up.2.upsample.conv.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.12966863811016083,
+        "max": 0.1443171203136444
+      },
+      {
+        "key": "vae.decoder.up.3.block.0.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8861325979232788,
+        "max": 1.4506912231445312
+      },
+      {
+        "key": "vae.decoder.up.3.block.0.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.25263044238090515,
+        "max": 0.011813133955001831
+      },
+      {
+        "key": "vae.decoder.up.3.block.0.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.34225377440452576,
+        "max": 0.2733727991580963
+      },
+      {
+        "key": "vae.decoder.up.3.block.0.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.06828217953443527,
+        "max": 0.0610077902674675
+      },
+      {
+        "key": "vae.decoder.up.3.block.0.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.7867798209190369,
+        "max": 1.0882396697998047
+      },
+      {
+        "key": "vae.decoder.up.3.block.0.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.2326231747865677,
+        "max": -0.014154254458844662
+      },
+      {
+        "key": "vae.decoder.up.3.block.0.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.22831201553344727,
+        "max": 0.19968608021736145
+      },
+      {
+        "key": "vae.decoder.up.3.block.0.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.08250303566455841,
+        "max": 0.06732787936925888
+      },
+      {
+        "key": "vae.decoder.up.3.block.1.norm1.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.9155164957046509,
+        "max": 1.166456937789917
+      },
+      {
+        "key": "vae.decoder.up.3.block.1.norm1.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.08419930189847946,
+        "max": 0.06784272193908691
+      },
+      {
+        "key": "vae.decoder.up.3.block.1.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.3329981863498688,
+        "max": 0.1581222414970398
+      },
+      {
+        "key": "vae.decoder.up.3.block.1.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.07063035666942596,
+        "max": 0.06693083047866821
+      },
+      {
+        "key": "vae.decoder.up.3.block.1.norm2.norm.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.7689864039421082,
+        "max": 1.0469416379928589
+      },
+      {
+        "key": "vae.decoder.up.3.block.1.norm2.norm.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.15228232741355896,
+        "max": 0.008693130686879158
+      },
+      {
+        "key": "vae.decoder.up.3.block.1.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.15084753930568695,
+        "max": 0.14738695323467255
+      },
+      {
+        "key": "vae.decoder.up.3.block.1.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.06507755070924759,
+        "max": 0.078249491751194
+      },
+      {
+        "key": "vae.decoder.up.3.upsample.conv.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.15896959602832794,
+        "max": 0.14104637503623962
+      },
+      {
+        "key": "vae.decoder.up.3.upsample.conv.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.08974108099937439,
+        "max": 0.09376873821020126
+      },
+      {
+        "key": "vae.decoder.norm_out.norm.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.8940023183822632,
+        "max": 1.1542714834213257
+      },
+      {
+        "key": "vae.decoder.norm_out.norm.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.1993817538022995,
+        "max": 0.25129595398902893
+      },
+      {
+        "key": "vae.decoder.conv_out.weight",
+        "shape": [
+          3,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 864,
+        "finite": true,
+        "min": -0.14267532527446747,
+        "max": 0.12465310841798782
+      },
+      {
+        "key": "vae.decoder.conv_out.bias",
+        "shape": [
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 3,
+        "finite": true,
+        "min": 0.31702497601509094,
+        "max": 0.32427650690078735
+      },
+      {
+        "key": "vae.quant_conv.weight",
+        "shape": [
+          8,
+          8,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.5969810485839844,
+        "max": 0.6174789071083069
+      },
+      {
+        "key": "vae.quant_conv.bias",
+        "shape": [
+          8
+        ],
+        "dtype": "torch.float32",
+        "numel": 8,
+        "finite": true,
+        "min": -0.12837213277816772,
+        "max": 0.17276176810264587
+      },
+      {
+        "key": "vae.post_quant_conv.weight",
+        "shape": [
+          4,
+          4,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 16,
+        "finite": true,
+        "min": -0.628714382648468,
+        "max": 0.5179681181907654
+      },
+      {
+        "key": "vae.post_quant_conv.bias",
+        "shape": [
+          4
+        ],
+        "dtype": "torch.float32",
+        "numel": 4,
+        "finite": true,
+        "min": 0.0661056712269783,
+        "max": 0.3195435702800751
+      },
+      {
+        "key": "denoiser.unet.noise_emb.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -37.57725143432617,
+        "max": 30.511348724365234
+      },
+      {
+        "key": "denoiser.unet.action_emb.0.weight",
+        "shape": [
+          128,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.9562019109725952,
+        "max": 1.0286506414413452
+      },
+      {
+        "key": "denoiser.unet.action_emb.0.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.9776912331581116,
+        "max": 0.9528763294219971
+      },
+      {
+        "key": "denoiser.unet.action_emb.2.weight",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.2943619191646576,
+        "max": 0.3803807199001312
+      },
+      {
+        "key": "denoiser.unet.action_emb.2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.09572092443704605,
+        "max": 0.0947701558470726
+      },
+      {
+        "key": "denoiser.unet.cond_proj.0.weight",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.23097175359725952,
+        "max": 0.31184643507003784
+      },
+      {
+        "key": "denoiser.unet.cond_proj.0.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.09000745415687561,
+        "max": 0.09692465513944626
+      },
+      {
+        "key": "denoiser.unet.cond_proj.2.weight",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.2510938346385956,
+        "max": 0.2970612049102783
+      },
+      {
+        "key": "denoiser.unet.cond_proj.2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.14569182693958282,
+        "max": 0.09672105312347412
+      },
+      {
+        "key": "denoiser.unet.conv_in.weight",
+        "shape": [
+          32,
+          8,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 2304,
+        "finite": true,
+        "min": -0.5368556976318359,
+        "max": 0.4328483045101166
+      },
+      {
+        "key": "denoiser.unet.conv_in.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.12310297787189484,
+        "max": 0.11445119976997375
+      },
+      {
+        "key": "denoiser.unet.down_blocks.0.cond_proj.1.weight",
+        "shape": [
+          64,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 8192,
+        "finite": true,
+        "min": -0.19885897636413574,
+        "max": 0.15608306229114532
+      },
+      {
+        "key": "denoiser.unet.down_blocks.0.cond_proj.1.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.1398177593946457,
+        "max": 0.08559096604585648
+      },
+      {
+        "key": "denoiser.unet.down_blocks.0.norm1.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.6146465539932251,
+        "max": 1.065911889076233
+      },
+      {
+        "key": "denoiser.unet.down_blocks.0.norm1.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.33809682726860046,
+        "max": 0.28355103731155396
+      },
+      {
+        "key": "denoiser.unet.down_blocks.0.conv1.weight",
+        "shape": [
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -0.23360136151313782,
+        "max": 0.1285623162984848
+      },
+      {
+        "key": "denoiser.unet.down_blocks.0.conv1.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.048370689153671265,
+        "max": 0.05171665921807289
+      },
+      {
+        "key": "denoiser.unet.down_blocks.0.norm2.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.6594879031181335,
+        "max": 0.9292236566543579
+      },
+      {
+        "key": "denoiser.unet.down_blocks.0.norm2.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.08171530067920685,
+        "max": -0.013319374062120914
+      },
+      {
+        "key": "denoiser.unet.down_blocks.0.conv2.weight",
+        "shape": [
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -0.08764331042766571,
+        "max": 0.0974402204155922
+      },
+      {
+        "key": "denoiser.unet.down_blocks.0.conv2.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.06454434990882874,
+        "max": 0.06942831724882126
+      },
+      {
+        "key": "denoiser.unet.down_blocks.1.cond_proj.1.weight",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.38038721680641174,
+        "max": 0.3249049484729767
+      },
+      {
+        "key": "denoiser.unet.down_blocks.1.cond_proj.1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.11971049010753632,
+        "max": 0.11206188797950745
+      },
+      {
+        "key": "denoiser.unet.down_blocks.1.norm1.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.7172733545303345,
+        "max": 1.0219687223434448
+      },
+      {
+        "key": "denoiser.unet.down_blocks.1.norm1.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.001842511584982276,
+        "max": 0.08805669844150543
+      },
+      {
+        "key": "denoiser.unet.down_blocks.1.conv1.weight",
+        "shape": [
+          64,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 18432,
+        "finite": true,
+        "min": -0.19075439870357513,
+        "max": 0.14851893484592438
+      },
+      {
+        "key": "denoiser.unet.down_blocks.1.conv1.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.08233369886875153,
+        "max": 0.09010923653841019
+      },
+      {
+        "key": "denoiser.unet.down_blocks.1.norm2.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 0.7984452247619629,
+        "max": 1.0650373697280884
+      },
+      {
+        "key": "denoiser.unet.down_blocks.1.norm2.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.13379931449890137,
+        "max": 0.01751282997429371
+      },
+      {
+        "key": "denoiser.unet.down_blocks.1.conv2.weight",
+        "shape": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 36864,
+        "finite": true,
+        "min": -0.1278277039527893,
+        "max": 0.09973495453596115
+      },
+      {
+        "key": "denoiser.unet.down_blocks.1.conv2.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.05778947472572327,
+        "max": 0.05863071233034134
+      },
+      {
+        "key": "denoiser.unet.down_blocks.1.shortcut.weight",
+        "shape": [
+          64,
+          32,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 2048,
+        "finite": true,
+        "min": -0.27186131477355957,
+        "max": 0.24001453816890717
+      },
+      {
+        "key": "denoiser.unet.down_blocks.1.shortcut.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.1923774927854538,
+        "max": 0.1876373142004013
+      },
+      {
+        "key": "denoiser.unet.down_blocks.2.cond_proj.1.weight",
+        "shape": [
+          256,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 32768,
+        "finite": true,
+        "min": -0.30954885482788086,
+        "max": 0.3725716173648834
+      },
+      {
+        "key": "denoiser.unet.down_blocks.2.cond_proj.1.bias",
+        "shape": [
+          256
+        ],
+        "dtype": "torch.float32",
+        "numel": 256,
+        "finite": true,
+        "min": -0.11523079872131348,
+        "max": 0.10701100528240204
+      },
+      {
+        "key": "denoiser.unet.down_blocks.2.norm1.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 0.7138180732727051,
+        "max": 1.1442537307739258
+      },
+      {
+        "key": "denoiser.unet.down_blocks.2.norm1.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.041614558547735214,
+        "max": 0.14773879945278168
+      },
+      {
+        "key": "denoiser.unet.down_blocks.2.conv1.weight",
+        "shape": [
+          128,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 73728,
+        "finite": true,
+        "min": -0.213140070438385,
+        "max": 0.14073027670383453
+      },
+      {
+        "key": "denoiser.unet.down_blocks.2.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.06123638153076172,
+        "max": 0.04705612733960152
+      },
+      {
+        "key": "denoiser.unet.down_blocks.2.norm2.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.7922440767288208,
+        "max": 1.0802760124206543
+      },
+      {
+        "key": "denoiser.unet.down_blocks.2.norm2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.06897109001874924,
+        "max": 0.053560350090265274
+      },
+      {
+        "key": "denoiser.unet.down_blocks.2.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.12741214036941528,
+        "max": 0.11904384940862656
+      },
+      {
+        "key": "denoiser.unet.down_blocks.2.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.050846166908741,
+        "max": 0.03430792689323425
+      },
+      {
+        "key": "denoiser.unet.down_blocks.2.shortcut.weight",
+        "shape": [
+          128,
+          64,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 8192,
+        "finite": true,
+        "min": -0.2369455248117447,
+        "max": 0.23184193670749664
+      },
+      {
+        "key": "denoiser.unet.down_blocks.2.shortcut.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.13529013097286224,
+        "max": 0.12196160107851028
+      },
+      {
+        "key": "denoiser.unet.mid_block.cond_proj.1.weight",
+        "shape": [
+          256,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 32768,
+        "finite": true,
+        "min": -0.31910648941993713,
+        "max": 0.23155857622623444
+      },
+      {
+        "key": "denoiser.unet.mid_block.cond_proj.1.bias",
+        "shape": [
+          256
+        ],
+        "dtype": "torch.float32",
+        "numel": 256,
+        "finite": true,
+        "min": -0.09609800577163696,
+        "max": 0.12195302546024323
+      },
+      {
+        "key": "denoiser.unet.mid_block.norm1.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.9166755080223083,
+        "max": 1.1381559371948242
+      },
+      {
+        "key": "denoiser.unet.mid_block.norm1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.052868034690618515,
+        "max": 0.09705821424722672
+      },
+      {
+        "key": "denoiser.unet.mid_block.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.22365231812000275,
+        "max": 0.25352931022644043
+      },
+      {
+        "key": "denoiser.unet.mid_block.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.03164884075522423,
+        "max": 0.03391474857926369
+      },
+      {
+        "key": "denoiser.unet.mid_block.norm2.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8858342170715332,
+        "max": 1.1687244176864624
+      },
+      {
+        "key": "denoiser.unet.mid_block.norm2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.17190326750278473,
+        "max": 0.07101250439882278
+      },
+      {
+        "key": "denoiser.unet.mid_block.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.23079179227352142,
+        "max": 0.17939870059490204
+      },
+      {
+        "key": "denoiser.unet.mid_block.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.044943761080503464,
+        "max": 0.035826265811920166
+      },
+      {
+        "key": "denoiser.unet.up_blocks.0.cond_proj.1.weight",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.31637006998062134,
+        "max": 0.27017122507095337
+      },
+      {
+        "key": "denoiser.unet.up_blocks.0.cond_proj.1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.08209937810897827,
+        "max": 0.0915096253156662
+      },
+      {
+        "key": "denoiser.unet.up_blocks.0.norm1.weight",
+        "shape": [
+          192
+        ],
+        "dtype": "torch.float32",
+        "numel": 192,
+        "finite": true,
+        "min": 0.7931312322616577,
+        "max": 1.1343743801116943
+      },
+      {
+        "key": "denoiser.unet.up_blocks.0.norm1.bias",
+        "shape": [
+          192
+        ],
+        "dtype": "torch.float32",
+        "numel": 192,
+        "finite": true,
+        "min": -0.04180179536342621,
+        "max": 0.147820845246315
+      },
+      {
+        "key": "denoiser.unet.up_blocks.0.conv1.weight",
+        "shape": [
+          64,
+          192,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 110592,
+        "finite": true,
+        "min": -0.19573120772838593,
+        "max": 0.2284848690032959
+      },
+      {
+        "key": "denoiser.unet.up_blocks.0.conv1.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.029980093240737915,
+        "max": 0.025406241416931152
+      },
+      {
+        "key": "denoiser.unet.up_blocks.0.norm2.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 0.8690556883811951,
+        "max": 1.1429516077041626
+      },
+      {
+        "key": "denoiser.unet.up_blocks.0.norm2.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.12235438078641891,
+        "max": 0.17910698056221008
+      },
+      {
+        "key": "denoiser.unet.up_blocks.0.conv2.weight",
+        "shape": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 36864,
+        "finite": true,
+        "min": -0.2698014974594116,
+        "max": 0.28894615173339844
+      },
+      {
+        "key": "denoiser.unet.up_blocks.0.conv2.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.10715083032846451,
+        "max": 0.0740450918674469
+      },
+      {
+        "key": "denoiser.unet.up_blocks.0.shortcut.weight",
+        "shape": [
+          64,
+          192,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 12288,
+        "finite": true,
+        "min": -0.1486864537000656,
+        "max": 0.19657444953918457
+      },
+      {
+        "key": "denoiser.unet.up_blocks.0.shortcut.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.11739804595708847,
+        "max": 0.11410991102457047
+      },
+      {
+        "key": "denoiser.unet.up_blocks.1.cond_proj.1.weight",
+        "shape": [
+          64,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 8192,
+        "finite": true,
+        "min": -0.20592720806598663,
+        "max": 0.2556110620498657
+      },
+      {
+        "key": "denoiser.unet.up_blocks.1.cond_proj.1.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.14114977419376373,
+        "max": 0.08175238966941833
+      },
+      {
+        "key": "denoiser.unet.up_blocks.1.norm1.weight",
+        "shape": [
+          96
+        ],
+        "dtype": "torch.float32",
+        "numel": 96,
+        "finite": true,
+        "min": 0.42898598313331604,
+        "max": 1.2170013189315796
+      },
+      {
+        "key": "denoiser.unet.up_blocks.1.norm1.bias",
+        "shape": [
+          96
+        ],
+        "dtype": "torch.float32",
+        "numel": 96,
+        "finite": true,
+        "min": -0.14230391383171082,
+        "max": 0.3803905248641968
+      },
+      {
+        "key": "denoiser.unet.up_blocks.1.conv1.weight",
+        "shape": [
+          32,
+          96,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 27648,
+        "finite": true,
+        "min": -0.2009534239768982,
+        "max": 0.19970658421516418
+      },
+      {
+        "key": "denoiser.unet.up_blocks.1.conv1.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.033362895250320435,
+        "max": 0.03188427910208702
+      },
+      {
+        "key": "denoiser.unet.up_blocks.1.norm2.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.644131064414978,
+        "max": 0.9501875638961792
+      },
+      {
+        "key": "denoiser.unet.up_blocks.1.norm2.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.05469902232289314,
+        "max": 0.07378765195608139
+      },
+      {
+        "key": "denoiser.unet.up_blocks.1.conv2.weight",
+        "shape": [
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -0.17773164808750153,
+        "max": 0.1799040138721466
+      },
+      {
+        "key": "denoiser.unet.up_blocks.1.conv2.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.04627848416566849,
+        "max": 0.05798976495862007
+      },
+      {
+        "key": "denoiser.unet.up_blocks.1.shortcut.weight",
+        "shape": [
+          32,
+          96,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 3072,
+        "finite": true,
+        "min": -0.3404504656791687,
+        "max": 0.2779858112335205
+      },
+      {
+        "key": "denoiser.unet.up_blocks.1.shortcut.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.1006941869854927,
+        "max": 0.09754651039838791
+      },
+      {
+        "key": "denoiser.unet.norm_out.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.8078927397727966,
+        "max": 1.124253749847412
+      },
+      {
+        "key": "denoiser.unet.norm_out.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.23797714710235596,
+        "max": 0.5912197828292847
+      },
+      {
+        "key": "denoiser.unet.conv_out.weight",
+        "shape": [
+          4,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 1152,
+        "finite": true,
+        "min": -0.25407665967941284,
+        "max": 0.2587774693965912
+      },
+      {
+        "key": "denoiser.unet.conv_out.bias",
+        "shape": [
+          4
+        ],
+        "dtype": "torch.float32",
+        "numel": 4,
+        "finite": true,
+        "min": -0.004040529020130634,
+        "max": 0.09565480798482895
+      }
+    ],
+    "denoiser_state_dict": [
+      {
+        "key": "unet.noise_emb.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -37.57725143432617,
+        "max": 30.511348724365234
+      },
+      {
+        "key": "unet.action_emb.0.weight",
+        "shape": [
+          128,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.9562019109725952,
+        "max": 1.0286506414413452
+      },
+      {
+        "key": "unet.action_emb.0.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.9776912331581116,
+        "max": 0.9528763294219971
+      },
+      {
+        "key": "unet.action_emb.2.weight",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.2943619191646576,
+        "max": 0.3803807199001312
+      },
+      {
+        "key": "unet.action_emb.2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.09572092443704605,
+        "max": 0.0947701558470726
+      },
+      {
+        "key": "unet.cond_proj.0.weight",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.23097175359725952,
+        "max": 0.31184643507003784
+      },
+      {
+        "key": "unet.cond_proj.0.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.09000745415687561,
+        "max": 0.09692465513944626
+      },
+      {
+        "key": "unet.cond_proj.2.weight",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.2510938346385956,
+        "max": 0.2970612049102783
+      },
+      {
+        "key": "unet.cond_proj.2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.14569182693958282,
+        "max": 0.09672105312347412
+      },
+      {
+        "key": "unet.conv_in.weight",
+        "shape": [
+          32,
+          8,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 2304,
+        "finite": true,
+        "min": -0.5368556976318359,
+        "max": 0.4328483045101166
+      },
+      {
+        "key": "unet.conv_in.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.12310297787189484,
+        "max": 0.11445119976997375
+      },
+      {
+        "key": "unet.down_blocks.0.cond_proj.1.weight",
+        "shape": [
+          64,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 8192,
+        "finite": true,
+        "min": -0.19885897636413574,
+        "max": 0.15608306229114532
+      },
+      {
+        "key": "unet.down_blocks.0.cond_proj.1.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.1398177593946457,
+        "max": 0.08559096604585648
+      },
+      {
+        "key": "unet.down_blocks.0.norm1.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.6146465539932251,
+        "max": 1.065911889076233
+      },
+      {
+        "key": "unet.down_blocks.0.norm1.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.33809682726860046,
+        "max": 0.28355103731155396
+      },
+      {
+        "key": "unet.down_blocks.0.conv1.weight",
+        "shape": [
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -0.23360136151313782,
+        "max": 0.1285623162984848
+      },
+      {
+        "key": "unet.down_blocks.0.conv1.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.048370689153671265,
+        "max": 0.05171665921807289
+      },
+      {
+        "key": "unet.down_blocks.0.norm2.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.6594879031181335,
+        "max": 0.9292236566543579
+      },
+      {
+        "key": "unet.down_blocks.0.norm2.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.08171530067920685,
+        "max": -0.013319374062120914
+      },
+      {
+        "key": "unet.down_blocks.0.conv2.weight",
+        "shape": [
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -0.08764331042766571,
+        "max": 0.0974402204155922
+      },
+      {
+        "key": "unet.down_blocks.0.conv2.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.06454434990882874,
+        "max": 0.06942831724882126
+      },
+      {
+        "key": "unet.down_blocks.1.cond_proj.1.weight",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.38038721680641174,
+        "max": 0.3249049484729767
+      },
+      {
+        "key": "unet.down_blocks.1.cond_proj.1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.11971049010753632,
+        "max": 0.11206188797950745
+      },
+      {
+        "key": "unet.down_blocks.1.norm1.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.7172733545303345,
+        "max": 1.0219687223434448
+      },
+      {
+        "key": "unet.down_blocks.1.norm1.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.001842511584982276,
+        "max": 0.08805669844150543
+      },
+      {
+        "key": "unet.down_blocks.1.conv1.weight",
+        "shape": [
+          64,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 18432,
+        "finite": true,
+        "min": -0.19075439870357513,
+        "max": 0.14851893484592438
+      },
+      {
+        "key": "unet.down_blocks.1.conv1.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.08233369886875153,
+        "max": 0.09010923653841019
+      },
+      {
+        "key": "unet.down_blocks.1.norm2.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 0.7984452247619629,
+        "max": 1.0650373697280884
+      },
+      {
+        "key": "unet.down_blocks.1.norm2.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.13379931449890137,
+        "max": 0.01751282997429371
+      },
+      {
+        "key": "unet.down_blocks.1.conv2.weight",
+        "shape": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 36864,
+        "finite": true,
+        "min": -0.1278277039527893,
+        "max": 0.09973495453596115
+      },
+      {
+        "key": "unet.down_blocks.1.conv2.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.05778947472572327,
+        "max": 0.05863071233034134
+      },
+      {
+        "key": "unet.down_blocks.1.shortcut.weight",
+        "shape": [
+          64,
+          32,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 2048,
+        "finite": true,
+        "min": -0.27186131477355957,
+        "max": 0.24001453816890717
+      },
+      {
+        "key": "unet.down_blocks.1.shortcut.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.1923774927854538,
+        "max": 0.1876373142004013
+      },
+      {
+        "key": "unet.down_blocks.2.cond_proj.1.weight",
+        "shape": [
+          256,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 32768,
+        "finite": true,
+        "min": -0.30954885482788086,
+        "max": 0.3725716173648834
+      },
+      {
+        "key": "unet.down_blocks.2.cond_proj.1.bias",
+        "shape": [
+          256
+        ],
+        "dtype": "torch.float32",
+        "numel": 256,
+        "finite": true,
+        "min": -0.11523079872131348,
+        "max": 0.10701100528240204
+      },
+      {
+        "key": "unet.down_blocks.2.norm1.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 0.7138180732727051,
+        "max": 1.1442537307739258
+      },
+      {
+        "key": "unet.down_blocks.2.norm1.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.041614558547735214,
+        "max": 0.14773879945278168
+      },
+      {
+        "key": "unet.down_blocks.2.conv1.weight",
+        "shape": [
+          128,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 73728,
+        "finite": true,
+        "min": -0.213140070438385,
+        "max": 0.14073027670383453
+      },
+      {
+        "key": "unet.down_blocks.2.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.06123638153076172,
+        "max": 0.04705612733960152
+      },
+      {
+        "key": "unet.down_blocks.2.norm2.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.7922440767288208,
+        "max": 1.0802760124206543
+      },
+      {
+        "key": "unet.down_blocks.2.norm2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.06897109001874924,
+        "max": 0.053560350090265274
+      },
+      {
+        "key": "unet.down_blocks.2.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.12741214036941528,
+        "max": 0.11904384940862656
+      },
+      {
+        "key": "unet.down_blocks.2.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.050846166908741,
+        "max": 0.03430792689323425
+      },
+      {
+        "key": "unet.down_blocks.2.shortcut.weight",
+        "shape": [
+          128,
+          64,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 8192,
+        "finite": true,
+        "min": -0.2369455248117447,
+        "max": 0.23184193670749664
+      },
+      {
+        "key": "unet.down_blocks.2.shortcut.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.13529013097286224,
+        "max": 0.12196160107851028
+      },
+      {
+        "key": "unet.mid_block.cond_proj.1.weight",
+        "shape": [
+          256,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 32768,
+        "finite": true,
+        "min": -0.31910648941993713,
+        "max": 0.23155857622623444
+      },
+      {
+        "key": "unet.mid_block.cond_proj.1.bias",
+        "shape": [
+          256
+        ],
+        "dtype": "torch.float32",
+        "numel": 256,
+        "finite": true,
+        "min": -0.09609800577163696,
+        "max": 0.12195302546024323
+      },
+      {
+        "key": "unet.mid_block.norm1.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.9166755080223083,
+        "max": 1.1381559371948242
+      },
+      {
+        "key": "unet.mid_block.norm1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.052868034690618515,
+        "max": 0.09705821424722672
+      },
+      {
+        "key": "unet.mid_block.conv1.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.22365231812000275,
+        "max": 0.25352931022644043
+      },
+      {
+        "key": "unet.mid_block.conv1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.03164884075522423,
+        "max": 0.03391474857926369
+      },
+      {
+        "key": "unet.mid_block.norm2.weight",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": 0.8858342170715332,
+        "max": 1.1687244176864624
+      },
+      {
+        "key": "unet.mid_block.norm2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.17190326750278473,
+        "max": 0.07101250439882278
+      },
+      {
+        "key": "unet.mid_block.conv2.weight",
+        "shape": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 147456,
+        "finite": true,
+        "min": -0.23079179227352142,
+        "max": 0.17939870059490204
+      },
+      {
+        "key": "unet.mid_block.conv2.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.044943761080503464,
+        "max": 0.035826265811920166
+      },
+      {
+        "key": "unet.up_blocks.0.cond_proj.1.weight",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 16384,
+        "finite": true,
+        "min": -0.31637006998062134,
+        "max": 0.27017122507095337
+      },
+      {
+        "key": "unet.up_blocks.0.cond_proj.1.bias",
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 128,
+        "finite": true,
+        "min": -0.08209937810897827,
+        "max": 0.0915096253156662
+      },
+      {
+        "key": "unet.up_blocks.0.norm1.weight",
+        "shape": [
+          192
+        ],
+        "dtype": "torch.float32",
+        "numel": 192,
+        "finite": true,
+        "min": 0.7931312322616577,
+        "max": 1.1343743801116943
+      },
+      {
+        "key": "unet.up_blocks.0.norm1.bias",
+        "shape": [
+          192
+        ],
+        "dtype": "torch.float32",
+        "numel": 192,
+        "finite": true,
+        "min": -0.04180179536342621,
+        "max": 0.147820845246315
+      },
+      {
+        "key": "unet.up_blocks.0.conv1.weight",
+        "shape": [
+          64,
+          192,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 110592,
+        "finite": true,
+        "min": -0.19573120772838593,
+        "max": 0.2284848690032959
+      },
+      {
+        "key": "unet.up_blocks.0.conv1.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.029980093240737915,
+        "max": 0.025406241416931152
+      },
+      {
+        "key": "unet.up_blocks.0.norm2.weight",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": 0.8690556883811951,
+        "max": 1.1429516077041626
+      },
+      {
+        "key": "unet.up_blocks.0.norm2.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.12235438078641891,
+        "max": 0.17910698056221008
+      },
+      {
+        "key": "unet.up_blocks.0.conv2.weight",
+        "shape": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 36864,
+        "finite": true,
+        "min": -0.2698014974594116,
+        "max": 0.28894615173339844
+      },
+      {
+        "key": "unet.up_blocks.0.conv2.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.10715083032846451,
+        "max": 0.0740450918674469
+      },
+      {
+        "key": "unet.up_blocks.0.shortcut.weight",
+        "shape": [
+          64,
+          192,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 12288,
+        "finite": true,
+        "min": -0.1486864537000656,
+        "max": 0.19657444953918457
+      },
+      {
+        "key": "unet.up_blocks.0.shortcut.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.11739804595708847,
+        "max": 0.11410991102457047
+      },
+      {
+        "key": "unet.up_blocks.1.cond_proj.1.weight",
+        "shape": [
+          64,
+          128
+        ],
+        "dtype": "torch.float32",
+        "numel": 8192,
+        "finite": true,
+        "min": -0.20592720806598663,
+        "max": 0.2556110620498657
+      },
+      {
+        "key": "unet.up_blocks.1.cond_proj.1.bias",
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32",
+        "numel": 64,
+        "finite": true,
+        "min": -0.14114977419376373,
+        "max": 0.08175238966941833
+      },
+      {
+        "key": "unet.up_blocks.1.norm1.weight",
+        "shape": [
+          96
+        ],
+        "dtype": "torch.float32",
+        "numel": 96,
+        "finite": true,
+        "min": 0.42898598313331604,
+        "max": 1.2170013189315796
+      },
+      {
+        "key": "unet.up_blocks.1.norm1.bias",
+        "shape": [
+          96
+        ],
+        "dtype": "torch.float32",
+        "numel": 96,
+        "finite": true,
+        "min": -0.14230391383171082,
+        "max": 0.3803905248641968
+      },
+      {
+        "key": "unet.up_blocks.1.conv1.weight",
+        "shape": [
+          32,
+          96,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 27648,
+        "finite": true,
+        "min": -0.2009534239768982,
+        "max": 0.19970658421516418
+      },
+      {
+        "key": "unet.up_blocks.1.conv1.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.033362895250320435,
+        "max": 0.03188427910208702
+      },
+      {
+        "key": "unet.up_blocks.1.norm2.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.644131064414978,
+        "max": 0.9501875638961792
+      },
+      {
+        "key": "unet.up_blocks.1.norm2.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.05469902232289314,
+        "max": 0.07378765195608139
+      },
+      {
+        "key": "unet.up_blocks.1.conv2.weight",
+        "shape": [
+          32,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 9216,
+        "finite": true,
+        "min": -0.17773164808750153,
+        "max": 0.1799040138721466
+      },
+      {
+        "key": "unet.up_blocks.1.conv2.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.04627848416566849,
+        "max": 0.05798976495862007
+      },
+      {
+        "key": "unet.up_blocks.1.shortcut.weight",
+        "shape": [
+          32,
+          96,
+          1,
+          1
+        ],
+        "dtype": "torch.float32",
+        "numel": 3072,
+        "finite": true,
+        "min": -0.3404504656791687,
+        "max": 0.2779858112335205
+      },
+      {
+        "key": "unet.up_blocks.1.shortcut.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": -0.1006941869854927,
+        "max": 0.09754651039838791
+      },
+      {
+        "key": "unet.norm_out.weight",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.8078927397727966,
+        "max": 1.124253749847412
+      },
+      {
+        "key": "unet.norm_out.bias",
+        "shape": [
+          32
+        ],
+        "dtype": "torch.float32",
+        "numel": 32,
+        "finite": true,
+        "min": 0.23797714710235596,
+        "max": 0.5912197828292847
+      },
+      {
+        "key": "unet.conv_out.weight",
+        "shape": [
+          4,
+          32,
+          3,
+          3
+        ],
+        "dtype": "torch.float32",
+        "numel": 1152,
+        "finite": true,
+        "min": -0.25407665967941284,
+        "max": 0.2587774693965912
+      },
+      {
+        "key": "unet.conv_out.bias",
+        "shape": [
+          4
+        ],
+        "dtype": "torch.float32",
+        "numel": 4,
+        "finite": true,
+        "min": -0.004040529020130634,
+        "max": 0.09565480798482895
+      }
+    ]
+  }
+}

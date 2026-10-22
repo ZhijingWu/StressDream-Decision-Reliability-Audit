@@ -1,0 +1,21 @@
+# Generated reproduction and document build products
+__pycache__/
+*.py[cod]
+.venv/
+reproduced/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.hdf5
+.env
+.env.*
+*.aux
+*.log
+*.out
+*.synctex.gz
+!experiments/gate0/raw/ORACLE_UNIT_TESTS.log
+!experiments/gate0/raw/ORACLE_RUN.log
+!experiments/gate0b/raw/UNIT_TESTS.log

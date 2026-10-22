@@ -1,0 +1,9 @@
+{
+  "future_latents": 43,
+  "paired_reconstructions": 32,
+  "vae_encodes": 36,
+  "vae_decodes": 75,
+  "head_calls": 78,
+  "denoiser_forwards": 215,
+  "renderer_calls": 35
+}

@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-10-21T15:50:47.963276+00:00",
+  "id": 1,
+  "previous_spec_sha256": "c6051a4ea58add0dd09e4c57c8c9526174f120e0d9ddb1b98ff22af1db7b8e07",
+  "reason": "Original D oblique pool has zero mixed-safe/unsafe states; numerical decision diversity alone is insufficient for active safety-constrained selection.",
+  "selection": "same design gate, exactly one additional variant; stop design if it fails",
+  "state_policy": "Use the already defined mixed design pool unchanged; no new design contexts, altered seeds, outcome filtering or test preview.",
+  "test_not_generated": true,
+  "variant": {
+    "H": 12,
+    "actions": "signed5",
+    "id": "D2_progress_safe_mixed",
+    "objective": "safe_expected_goal_progress",
+    "pool": "mixed"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "additional_design_diagnostics": [
+    "expected trajectory-minimum C and lower-tail CVaR_0.2 on B_signed at p=.2 and .4"
+  ],
+  "common_generator": "phi: i mod4 quadrant plus uniform jitter[0,pi/2]; random permutation of context order; x=rho cosphi,y=rho sinphi; theta=(phi+pi+error) mod2pi",
+  "design_contexts_per_pool": 32,
+  "design_gate": {
+    "best_constant_mean_regret_min": 0.01,
+    "boundary_excursion_contexts_max": 0,
+    "each_of_three_singleton_actions_min": 2,
+    "informative_fraction_min": 0.5,
+    "mixed_safe_unsafe_contexts_min": 4,
+    "singleton_optimal_actions_min": 3
+  },
+  "design_seed": 202610210,
+  "execute_test_once": true,
+  "goal": [
+    1.0,
+    0.0
+  ],
+  "inclusion": "retain every generated context; no rejection by safety, Q*, goal, ranking, model or boundary excursion",
+  "margins_m2": [
+    0.0025,
+    0.005,
+    0.01
+  ],
+  "no_model_work": true,
+  "objective_warning": "D changes the original StressDream safety objective. Goal is external evaluation metadata, not drawn into WM images or supplied as a new WM control channel.",
+  "physical_revision": "b16fa067d3d949ef09ad48a984c62ea8ecbbfe6d",
+  "pools": {
+    "mixed": {
+      "heading_error": "uniform[-1.4,1.4]",
+      "rho": [
+        0.35,
+        0.75
+      ]
+    },
+    "oblique": {
+      "heading_error": "independent fair sign * uniform[.8,1.4]",
+      "rho": [
+        0.6,
+        0.75
+      ]
+    }
+  },
+  "primary_probability": 0.2,
+  "probabilities": [
+    0.2,
+    0.4
+  ],
+  "rng": "numpy.random.Generator(PCG64)",
+  "schema": 1,
+  "selection_rule": "first in listed order satisfying design gate; no learned-model information",
+  "test_contexts": 64,
+  "test_seed": 202610211,
+  "test_success_rule": "same fractional informative threshold, >=3 singleton-optimal IDs each >=4/64, best-constant mean regret>.01, >=4 mixed safety contexts, no physical boundary excursion",
+  "tolerance": 1e-12,
+  "unsafe_task_utility": -4.0,
+  "variants": [
+    {
+      "H": 12,
+      "actions": "original5",
+      "id": "A_multiside",
+      "objective": "support_worst_safety",
+      "pool": "mixed"
+    },
+    {
+      "H": 12,
+      "actions": "signed5",
+      "id": "B_signed",
+      "objective": "support_worst_safety",
+      "pool": "mixed"
+    },
+    {
+      "H": 16,
+      "actions": "signed5",
+      "id": "C_longer",
+      "objective": "support_worst_safety",
+      "pool": "mixed"
+    },
+    {
+      "H": 12,
+      "actions": "signed5",
+      "id": "D_progress_safe",
+      "objective": "safe_expected_goal_progress",
+      "pool": "oblique"
+    }
+  ]
+}

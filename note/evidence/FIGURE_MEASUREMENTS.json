@@ -1,0 +1,9 @@
+{
+  "margin_m2": 0.005,
+  "clean_p95_m2": 0.007388413463612402,
+  "vae_p95_m2": 0.00989602124670929,
+  "clean_position_p95_mm": 13.916992692256226,
+  "vae_position_p95_mm": 13.968286495213503,
+  "n_per_domain": 16,
+  "source_sha256": "099a1a57ee4a70aac3d3ca7f326e4f2ed67c22b4820bd9053c33a823af4f53a5"
+}

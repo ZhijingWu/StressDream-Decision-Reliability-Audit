@@ -1,0 +1,3 @@
+domain,p95_absolute_safety_error_m2,n,prespecified_margin_m2
+Clean renderer,0.007388413463612402,16,0.005
+VAE reconstruction,0.00989602124670929,16,0.005

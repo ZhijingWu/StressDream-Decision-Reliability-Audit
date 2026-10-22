@@ -1,0 +1,12 @@
+{
+  "all_design_seeds": [
+    202610210,
+    202610211
+  ],
+  "created_utc": "2026-10-21T15:52:38.506910+00:00",
+  "new_test_seed": 202610299,
+  "no_other_design_changes": true,
+  "no_test_states_generated": true,
+  "previous_spec_sha256": "6c25ba209ca4ead291f7ef9f9cdac59ade0493775faf468b6bc5ccd39cd95798",
+  "reason": "Pre-test audit found test seed202610211 coincides with oblique design seed (design_seed+1). Use a new unused seed to avoid shared underlying design/test draws."
+}

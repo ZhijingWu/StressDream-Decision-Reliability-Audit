@@ -1,0 +1,257 @@
+{
+  "vae_final.pt": {
+    "static_unsafe_globals": [],
+    "restricted_load": true,
+    "load_s": 0.43879670000023907,
+    "top_keys": [
+      "epoch",
+      "model_state_dict",
+      "optimizer_state_dict",
+      "config",
+      "global_step",
+      "prediction_heads_state_dict"
+    ],
+    "epoch": 30,
+    "config": {
+      "data": {
+        "dataset_path": "checkpoints/hj_r0.25_d0_naughty_4000_128.hdf5",
+        "sequence_length": 1,
+        "batch_size": 128,
+        "num_train_trajs": 3800,
+        "num_workers": 4
+      },
+      "vae": {
+        "in_channels": 3,
+        "ch": 32,
+        "ch_mult": [
+          1,
+          2,
+          4,
+          4
+        ],
+        "num_res_blocks": 1,
+        "attn_resolutions": [],
+        "dropout": 0.0,
+        "resolution": 128,
+        "z_channels": 4,
+        "embed_dim": 4,
+        "double_z": true
+      },
+      "denoiser": {
+        "backbone": "unet",
+        "latent_dim": 4,
+        "action_dim": 1,
+        "num_steps_conditioning": 1,
+        "cond_dim": 128,
+        "hidden_dims": [
+          32,
+          64,
+          128
+        ],
+        "sigma_data": 0.5,
+        "sigma_offset_noise": 0.0
+      },
+      "prediction_heads": {
+        "hidden_dim": 256,
+        "num_conv_layers": 2,
+        "num_mlp_layers": 1,
+        "margin_weight": 1.0,
+        "done_weight": 1.0,
+        "obs_x": 0.0,
+        "obs_y": 0.0,
+        "obs_r": 0.25
+      },
+      "sampler": {
+        "num_steps_denoising": 5,
+        "sigma_min": 0.002,
+        "sigma_max": 80.0,
+        "rho": 7,
+        "order": 1,
+        "s_churn": 0.0,
+        "s_tmin": 0.0,
+        "s_tmax": 1000000.0,
+        "s_noise": 1.0
+      },
+      "sigma_distribution": {
+        "loc": -1.2,
+        "scale": 1.2,
+        "sigma_min": 0.002,
+        "sigma_max": 80.0
+      },
+      "vae_loss": {
+        "disc_start": 20000,
+        "kl_weight": 1e-06,
+        "pixelloss_weight": 1.0,
+        "perceptual_weight": 1.0,
+        "disc_weight": 0.5,
+        "disc_factor": 1.0,
+        "disc_num_layers": 3,
+        "disc_in_channels": 3,
+        "disc_loss": "hinge",
+        "logvar_init": 0.0
+      },
+      "training": {
+        "vae_epochs": 30,
+        "vae_lr": 0.0004,
+        "warmup_steps": 10000,
+        "gradient_clip_val": 1.0,
+        "denoiser_epochs": 100,
+        "denoiser_lr": 0.0001,
+        "lr_scheduler": "cosine",
+        "ema_decay": 0.999,
+        "estimate_sigma_data": true,
+        "device": "cuda",
+        "eval_every": 1,
+        "save_every": 1,
+        "log_every": 100,
+        "checkpoint_dir": "checkpoints",
+        "log_dir": "logs",
+        "remark": "steering",
+        "resume_checkpoint": null
+      },
+      "eval": {
+        "num_rollouts": 5,
+        "rollout_length": 50,
+        "fps": 10
+      },
+      "wandb": {
+        "project": "diffusion_world_model",
+        "vae_run_name": "steering_vae",
+        "world_model_run_name": "steering_wm",
+        "entity": null,
+        "tags": [
+          "dubins_car",
+          "steering"
+        ]
+      }
+    }
+  },
+  "world_model_latest.pt": {
+    "static_unsafe_globals": [],
+    "restricted_load": true,
+    "load_s": 0.18263970000043628,
+    "top_keys": [
+      "epoch",
+      "model_state_dict",
+      "denoiser_state_dict",
+      "optimizer_state_dict",
+      "config",
+      "global_step",
+      "timestamp"
+    ],
+    "epoch": 100,
+    "config": {
+      "data": {
+        "dataset_path": "checkpoints/hj_r0.25_d0_naughty_4000_128.hdf5",
+        "sequence_length": 16,
+        "batch_size": 128,
+        "num_train_trajs": 3800,
+        "num_workers": 4
+      },
+      "vae": {
+        "in_channels": 3,
+        "ch": 32,
+        "ch_mult": [
+          1,
+          2,
+          4,
+          4
+        ],
+        "num_res_blocks": 1,
+        "attn_resolutions": [],
+        "dropout": 0.0,
+        "resolution": 128,
+        "z_channels": 4,
+        "embed_dim": 4,
+        "double_z": true
+      },
+      "denoiser": {
+        "backbone": "unet",
+        "latent_dim": 4,
+        "action_dim": 1,
+        "num_steps_conditioning": 1,
+        "cond_dim": 128,
+        "hidden_dims": [
+          32,
+          64,
+          128
+        ],
+        "sigma_data": 0.5,
+        "sigma_offset_noise": 0.0
+      },
+      "prediction_heads": {
+        "hidden_dim": 256,
+        "num_conv_layers": 2,
+        "num_mlp_layers": 1,
+        "margin_weight": 1.0,
+        "done_weight": 1.0,
+        "obs_x": 0.0,
+        "obs_y": 0.0,
+        "obs_r": 0.25
+      },
+      "sampler": {
+        "num_steps_denoising": 5,
+        "sigma_min": 0.002,
+        "sigma_max": 80.0,
+        "rho": 7,
+        "order": 1,
+        "s_churn": 0.0,
+        "s_tmin": 0.0,
+        "s_tmax": 1000000.0,
+        "s_noise": 1.0
+      },
+      "sigma_distribution": {
+        "loc": -1.2,
+        "scale": 1.2,
+        "sigma_min": 0.002,
+        "sigma_max": 80.0
+      },
+      "vae_loss": {
+        "disc_start": 20000,
+        "kl_weight": 1e-06,
+        "pixelloss_weight": 1.0,
+        "perceptual_weight": 1.0,
+        "disc_weight": 0.5,
+        "disc_factor": 1.0,
+        "disc_num_layers": 3,
+        "disc_in_channels": 3,
+        "disc_loss": "hinge",
+        "logvar_init": 0.0
+      },
+      "training": {
+        "vae_epochs": 30,
+        "vae_lr": 0.0004,
+        "warmup_steps": 10000,
+        "gradient_clip_val": 1.0,
+        "denoiser_epochs": 100,
+        "denoiser_lr": 0.0001,
+        "lr_scheduler": "cosine",
+        "ema_decay": 0.999,
+        "estimate_sigma_data": true,
+        "device": "cuda",
+        "eval_every": 1,
+        "save_every": 1,
+        "log_every": 100,
+        "checkpoint_dir": "checkpoints",
+        "log_dir": "logs",
+        "remark": "steering",
+        "resume_checkpoint": null
+      },
+      "eval": {
+        "num_rollouts": 5,
+        "rollout_length": 50,
+        "fps": 10
+      },
+      "wandb": {
+        "project": "diffusion_world_model",
+        "vae_run_name": "steering_vae",
+        "world_model_run_name": "steering_wm",
+        "entity": null,
+        "tags": [
+          "dubins_car",
+          "steering"
+        ]
+      }
+    }
+  }
+}

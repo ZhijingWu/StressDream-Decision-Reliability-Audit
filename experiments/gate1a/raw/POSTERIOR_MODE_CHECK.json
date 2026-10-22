@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "atol": 1e-06,
+  "rtol": 1e-05,
+  "max_abs_difference": 0.0
+}

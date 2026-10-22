@@ -1,0 +1,13 @@
+> Public archival copy. Local absolute paths are redacted; this is not represented as byte-identical to the frozen original. Source/public SHA-256 mappings are in `reproducibility/evidence_manifest.json`. Measured Gate 1A record; no later steering/ranking experiment is implied.
+
+# Gate 1A measured resource use
+
+Hardware: Intel Core Ultra 7 155H CPU. Existing Python 3.11.16, torch 2.13.0+cpu (compiled CUDA=None), NumPy 1.23.5, Pillow 12.3.0 and Matplotlib 3.7.2; CPU float32, batch 1, 4 intra-op/1 inter-op threads. No installs or GPU backend. Offline recovery/reporting used existing base Python and NumPy only, with no torch import/model calls.
+
+The shared pilot clock began before the first transfer and included the failed EOF, recovery, restricted checks and intervening wrapper preparation. Final prediction finished at 722.711s (~12.05min); worker ended at 723.96s. The inference worker's full wall time including imports, load,32 paired reconstructions, reader calibration, nominal runs, file writes and the export exception was 37.9848s. This is distinct from the broader elapsed pilot clock. Final preservation/reporting end time is recorded in raw/FINAL_INTEGRITY.json.
+
+Per-step nominal sampler: n=43, median 0.122308s, p95 0.146799s, total 5.36203s; each includes 5 denoiser evaluations. VAE encode n=36, median 0.0610795s; decode n=75, median 0.15013s. Cold model load/construct and each operation are separated in OPERATION_TIMINGS.csv. Warm-up remains in raw counters/timings, not deleted. Complete two-step/H12 times include decoding, heads, readout and sample artifact writes, but exclude reusing the previously encoded initial frame. H12 times are 3.83758s and 3.74434s; these are single runs, not confidence intervals or estimates of a full multi-action decision.
+
+Maximum aggregate sampled RSS across worker and watchdog: **341,688,320 bytes (0.318GiB)**, below 8 GiB. RSS was sampled every .1 s; transient peaks can be missed. The OS inference peak working set was lost at export and is not claimed. Disk was checked each second; no 1 GiB limit hit. Payloads remain on D outside the frozen source; final incremental checkpoint+measured-output bytes appear in FINAL_INTEGRITY.json. No time/memory/storage watchdog limit fired.
+
+Exact measured work: 43 future latent predictions,215 denoiser forwards,32 paired reconstructions,36 encodes,75 decodes,78 composite head calls,35 clean renders. No neural work was replayed after the logger exception. These nominal CPU timings say nothing about full-gradient steering, regularizer cost, BoN matched-compute N, ranking quality or full 64-state study cost. No matched-compute comparison was executed.

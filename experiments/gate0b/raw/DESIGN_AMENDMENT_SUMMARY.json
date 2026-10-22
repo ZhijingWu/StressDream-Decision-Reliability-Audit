@@ -1,0 +1,467 @@
+{
+  "action_ids": [
+    "A0",
+    "Lhalf",
+    "Lfull",
+    "Rhalf",
+    "Rfull"
+  ],
+  "all_safe_contexts": 18,
+  "best_constant_action": "A0",
+  "best_constant_max_regret_m2": 0.3341879129951293,
+  "best_constant_mean_regret_m2": 0.10725845576003787,
+  "best_set_membership": {
+    "A0": 14,
+    "Lfull": 15,
+    "Lhalf": 12,
+    "Rfull": 21,
+    "Rhalf": 10
+  },
+  "boundary_excursion_contexts": 0,
+  "boundary_excursion_ids": [],
+  "constant_mean_regrets_m2": {
+    "A0": 0.10725845576003787,
+    "Lfull": 0.7674738834662349,
+    "Lhalf": 0.5967420920089028,
+    "Rfull": 0.695270011751906,
+    "Rhalf": 0.5624385700251009
+  },
+  "constant_unsafe_counts": {
+    "A0": 10,
+    "Lfull": 14,
+    "Lhalf": 13,
+    "Rfull": 14,
+    "Rhalf": 13
+  },
+  "contexts": 32,
+  "cvar_safety_diagnostics": {
+    "0.2": {
+      "action_ids": [
+        "A0",
+        "Lhalf",
+        "Lfull",
+        "Rhalf",
+        "Rfull"
+      ],
+      "all_safe_contexts": 18,
+      "best_constant_action": "A0",
+      "best_constant_max_regret_m2": 0.024226778035663393,
+      "best_constant_mean_regret_m2": 0.004753913227154633,
+      "best_set_membership": {
+        "A0": 11,
+        "Lfull": 12,
+        "Lhalf": 1,
+        "Rfull": 5,
+        "Rhalf": 3
+      },
+      "constant_mean_regrets_m2": {
+        "A0": 0.004753913227154633,
+        "Lfull": 0.027253308201482022,
+        "Lhalf": 0.014961362303514577,
+        "Rfull": 0.03058999824862242,
+        "Rhalf": 0.01728774374628302
+      },
+      "constant_unsafe_counts": {
+        "A0": 10,
+        "Lfull": 14,
+        "Lhalf": 13,
+        "Rfull": 14,
+        "Rhalf": 13
+      },
+      "contexts": 32,
+      "distinct_singleton_optimal_actions": 5,
+      "informative_contexts": {
+        "0.0025": 31,
+        "0.005": 31,
+        "0.01": 29
+      },
+      "meaningful_unique_optimum_contexts": {
+        "0.0025": 12,
+        "0.005": 7,
+        "0.01": 1
+      },
+      "mixed_safety_contexts": 4,
+      "no_safe_contexts": 10,
+      "numeric_tied_optimum_contexts": 0,
+      "oracle_advantage_over_best_constant_m2": 0.004753913227154641,
+      "safety_safe_queries": 96,
+      "safety_unsafe_queries": 64,
+      "separated_pairs": {
+        "0.0025": 256,
+        "0.005": 224,
+        "0.01": 178
+      },
+      "singleton_optimum_counts": {
+        "A0": 11,
+        "Lfull": 12,
+        "Lhalf": 1,
+        "Rfull": 5,
+        "Rhalf": 3
+      }
+    },
+    "0.4": {
+      "action_ids": [
+        "A0",
+        "Lhalf",
+        "Lfull",
+        "Rhalf",
+        "Rfull"
+      ],
+      "all_safe_contexts": 18,
+      "best_constant_action": "A0",
+      "best_constant_max_regret_m2": 4.4590375397092485e-05,
+      "best_constant_mean_regret_m2": 1.3934492311591402e-06,
+      "best_set_membership": {
+        "A0": 31,
+        "Lfull": 1,
+        "Lhalf": 0,
+        "Rfull": 0,
+        "Rhalf": 0
+      },
+      "constant_mean_regrets_m2": {
+        "A0": 1.3934492311591402e-06,
+        "Lfull": 0.02813280430925081,
+        "Lhalf": 0.013646003951525557,
+        "Rfull": 0.029042020332926705,
+        "Rhalf": 0.014406113297110255
+      },
+      "constant_unsafe_counts": {
+        "A0": 10,
+        "Lfull": 14,
+        "Lhalf": 13,
+        "Rfull": 14,
+        "Rhalf": 13
+      },
+      "contexts": 32,
+      "distinct_singleton_optimal_actions": 2,
+      "informative_contexts": {
+        "0.0025": 31,
+        "0.005": 30,
+        "0.01": 28
+      },
+      "meaningful_unique_optimum_contexts": {
+        "0.0025": 30,
+        "0.005": 24,
+        "0.01": 10
+      },
+      "mixed_safety_contexts": 4,
+      "no_safe_contexts": 10,
+      "numeric_tied_optimum_contexts": 0,
+      "oracle_advantage_over_best_constant_m2": 1.3934492311545865e-06,
+      "safety_safe_queries": 96,
+      "safety_unsafe_queries": 64,
+      "separated_pairs": {
+        "0.0025": 279,
+        "0.005": 239,
+        "0.01": 174
+      },
+      "singleton_optimum_counts": {
+        "A0": 31,
+        "Lfull": 1,
+        "Lhalf": 0,
+        "Rfull": 0,
+        "Rhalf": 0
+      }
+    }
+  },
+  "distinct_singleton_optimal_actions": 4,
+  "elapsed_seconds": 0.5677753999998458,
+  "expectation_safety_diagnostics": {
+    "0.2": {
+      "action_ids": [
+        "A0",
+        "Lhalf",
+        "Lfull",
+        "Rhalf",
+        "Rfull"
+      ],
+      "all_safe_contexts": 18,
+      "best_constant_action": "Lhalf",
+      "best_constant_max_regret_m2": 0.13238746369586474,
+      "best_constant_mean_regret_m2": 0.024999836976767886,
+      "best_set_membership": {
+        "A0": 0,
+        "Lfull": 18,
+        "Lhalf": 0,
+        "Rfull": 14,
+        "Rhalf": 0
+      },
+      "constant_mean_regrets_m2": {
+        "A0": 0.025663343452099273,
+        "Lfull": 0.0257781615003084,
+        "Lhalf": 0.024999836976767886,
+        "Rfull": 0.03082022762225867,
+        "Rhalf": 0.027776493677219738
+      },
+      "constant_unsafe_counts": {
+        "A0": 10,
+        "Lfull": 14,
+        "Lhalf": 13,
+        "Rfull": 14,
+        "Rhalf": 13
+      },
+      "contexts": 32,
+      "distinct_singleton_optimal_actions": 2,
+      "informative_contexts": {
+        "0.0025": 32,
+        "0.005": 31,
+        "0.01": 30
+      },
+      "meaningful_unique_optimum_contexts": {
+        "0.0025": 23,
+        "0.005": 21,
+        "0.01": 16
+      },
+      "mixed_safety_contexts": 4,
+      "no_safe_contexts": 10,
+      "numeric_tied_optimum_contexts": 0,
+      "oracle_advantage_over_best_constant_m2": 0.0249998369767679,
+      "safety_safe_queries": 96,
+      "safety_unsafe_queries": 64,
+      "separated_pairs": {
+        "0.0025": 299,
+        "0.005": 264,
+        "0.01": 222
+      },
+      "singleton_optimum_counts": {
+        "A0": 0,
+        "Lfull": 18,
+        "Lhalf": 0,
+        "Rfull": 14,
+        "Rhalf": 0
+      }
+    },
+    "0.4": {
+      "action_ids": [
+        "A0",
+        "Lhalf",
+        "Lfull",
+        "Rhalf",
+        "Rfull"
+      ],
+      "all_safe_contexts": 18,
+      "best_constant_action": "Lhalf",
+      "best_constant_max_regret_m2": 0.0465758939406125,
+      "best_constant_mean_regret_m2": 0.008306518147220712,
+      "best_set_membership": {
+        "A0": 1,
+        "Lfull": 16,
+        "Lhalf": 2,
+        "Rfull": 9,
+        "Rhalf": 4
+      },
+      "constant_mean_regrets_m2": {
+        "A0": 0.008420507439662741,
+        "Lfull": 0.008819257639172916,
+        "Lhalf": 0.008306518147220712,
+        "Rfull": 0.010556437898448175,
+        "Rhalf": 0.00923320746056316
+      },
+      "constant_unsafe_counts": {
+        "A0": 10,
+        "Lfull": 14,
+        "Lhalf": 13,
+        "Rfull": 14,
+        "Rhalf": 13
+      },
+      "contexts": 32,
+      "distinct_singleton_optimal_actions": 5,
+      "informative_contexts": {
+        "0.0025": 31,
+        "0.005": 29,
+        "0.01": 20
+      },
+      "meaningful_unique_optimum_contexts": {
+        "0.0025": 16,
+        "0.005": 9,
+        "0.01": 5
+      },
+      "mixed_safety_contexts": 4,
+      "no_safe_contexts": 10,
+      "numeric_tied_optimum_contexts": 0,
+      "oracle_advantage_over_best_constant_m2": 0.00830651814722072,
+      "safety_safe_queries": 96,
+      "safety_unsafe_queries": 64,
+      "separated_pairs": {
+        "0.0025": 239,
+        "0.005": 182,
+        "0.01": 109
+      },
+      "singleton_optimum_counts": {
+        "A0": 1,
+        "Lfull": 16,
+        "Lhalf": 2,
+        "Rfull": 9,
+        "Rhalf": 4
+      }
+    }
+  },
+  "informative_contexts": {
+    "0.0025": 22,
+    "0.005": 22,
+    "0.01": 22
+  },
+  "max_abs_coordinate": 0.8725748095694018,
+  "meaningful_unique_optimum_contexts": {
+    "0.0025": 21,
+    "0.005": 20,
+    "0.01": 20
+  },
+  "mixed_safety_contexts": 4,
+  "no_safe_contexts": 10,
+  "numeric_tied_optimum_contexts": 10,
+  "oracle_advantage_over_best_constant_m2": 0.10725845576003801,
+  "phase": "design_amendment_1",
+  "probability_sensitivity": {
+    "0.2": {
+      "action_ids": [
+        "A0",
+        "Lhalf",
+        "Lfull",
+        "Rhalf",
+        "Rfull"
+      ],
+      "all_safe_contexts": 18,
+      "best_constant_action": "A0",
+      "best_constant_max_regret_m2": 0.3341879129951293,
+      "best_constant_mean_regret_m2": 0.10725845576003787,
+      "best_set_membership": {
+        "A0": 14,
+        "Lfull": 15,
+        "Lhalf": 12,
+        "Rfull": 21,
+        "Rhalf": 10
+      },
+      "constant_mean_regrets_m2": {
+        "A0": 0.10725845576003787,
+        "Lfull": 0.7674738834662349,
+        "Lhalf": 0.5967420920089028,
+        "Rfull": 0.695270011751906,
+        "Rhalf": 0.5624385700251009
+      },
+      "constant_unsafe_counts": {
+        "A0": 10,
+        "Lfull": 14,
+        "Lhalf": 13,
+        "Rfull": 14,
+        "Rhalf": 13
+      },
+      "contexts": 32,
+      "distinct_singleton_optimal_actions": 4,
+      "informative_contexts": {
+        "0.0025": 22,
+        "0.005": 22,
+        "0.01": 22
+      },
+      "meaningful_unique_optimum_contexts": {
+        "0.0025": 21,
+        "0.005": 20,
+        "0.01": 20
+      },
+      "mixed_safety_contexts": 4,
+      "no_safe_contexts": 10,
+      "numeric_tied_optimum_contexts": 10,
+      "oracle_advantage_over_best_constant_m2": 0.10725845576003801,
+      "safety_safe_queries": 96,
+      "safety_unsafe_queries": 64,
+      "separated_pairs": {
+        "0.0025": 200,
+        "0.005": 198,
+        "0.01": 198
+      },
+      "singleton_optimum_counts": {
+        "A0": 4,
+        "Lfull": 5,
+        "Lhalf": 2,
+        "Rfull": 11,
+        "Rhalf": 0
+      }
+    },
+    "0.4": {
+      "action_ids": [
+        "A0",
+        "Lhalf",
+        "Lfull",
+        "Rhalf",
+        "Rfull"
+      ],
+      "all_safe_contexts": 18,
+      "best_constant_action": "A0",
+      "best_constant_max_regret_m2": 0.11273158873166156,
+      "best_constant_mean_regret_m2": 0.036570369491853924,
+      "best_set_membership": {
+        "A0": 14,
+        "Lfull": 15,
+        "Lhalf": 12,
+        "Rfull": 21,
+        "Rhalf": 10
+      },
+      "constant_mean_regrets_m2": {
+        "A0": 0.036570369491853924,
+        "Lfull": 0.6753947355519063,
+        "Lhalf": 0.5150783889482696,
+        "Rfull": 0.6510995891914725,
+        "Rhalf": 0.5036170360570958
+      },
+      "constant_unsafe_counts": {
+        "A0": 10,
+        "Lfull": 14,
+        "Lhalf": 13,
+        "Rfull": 14,
+        "Rhalf": 13
+      },
+      "contexts": 32,
+      "distinct_singleton_optimal_actions": 4,
+      "informative_contexts": {
+        "0.0025": 22,
+        "0.005": 22,
+        "0.01": 22
+      },
+      "meaningful_unique_optimum_contexts": {
+        "0.0025": 20,
+        "0.005": 20,
+        "0.01": 18
+      },
+      "mixed_safety_contexts": 4,
+      "no_safe_contexts": 10,
+      "numeric_tied_optimum_contexts": 10,
+      "oracle_advantage_over_best_constant_m2": 0.03657036949185377,
+      "safety_safe_queries": 96,
+      "safety_unsafe_queries": 64,
+      "separated_pairs": {
+        "0.0025": 197,
+        "0.005": 195,
+        "0.01": 183
+      },
+      "singleton_optimum_counts": {
+        "A0": 4,
+        "Lfull": 5,
+        "Lhalf": 2,
+        "Rfull": 11,
+        "Rhalf": 0
+      }
+    }
+  },
+  "safety_safe_queries": 96,
+  "safety_unsafe_queries": 64,
+  "separated_pairs": {
+    "0.0025": 200,
+    "0.005": 198,
+    "0.01": 198
+  },
+  "singleton_optimum_counts": {
+    "A0": 4,
+    "Lfull": 5,
+    "Lhalf": 2,
+    "Rfull": 11,
+    "Rhalf": 0
+  },
+  "variant": {
+    "H": 12,
+    "actions": "signed5",
+    "id": "D2_progress_safe_mixed",
+    "objective": "safe_expected_goal_progress",
+    "pool": "mixed"
+  },
+  "witness_replay_error": 0.0
+}

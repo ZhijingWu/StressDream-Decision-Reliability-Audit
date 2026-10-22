@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this independent audit or its oracle, cite this repository and the original StressDream paper separately."
+title: "StressDream — Decision-Relevant World-Model Evaluation Audit"
+type: software
+authors:
+  - family-names: Wu
+    given-names: Zhijing
+    affiliation: Sichuan University
+    website: "https://zhijingwu.github.io/"
+date-released: 2026-10-22
+url: "https://github.com/ZhijingWu/StressDream-Decision-Reliability-Audit"
+repository-code: "https://github.com/ZhijingWu/StressDream-Decision-Reliability-Audit"
+license: MIT
+abstract: "Independent technical investigation; unpublished. Dynamics oracle, decision diagnostics, and checkpoint/readout feasibility evidence; no full steering/ranking experiment."

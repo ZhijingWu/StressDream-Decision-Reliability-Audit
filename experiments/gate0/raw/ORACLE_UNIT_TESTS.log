@@ -1,0 +1,21 @@
+test_control_sign_symmetry_of_support (__main__.OracleTests.test_control_sign_symmetry_of_support) ... ok
+test_frozen_split_and_candidates (__main__.OracleTests.test_frozen_split_and_candidates) ... ok
+test_heading_wrap_invariance (__main__.OracleTests.test_heading_wrap_invariance) ... ok
+test_independent_cartesian_enumerator_small_horizon (__main__.OracleTests.test_independent_cartesian_enumerator_small_horizon) ... ok
+test_independent_product_probability_and_mass (__main__.OracleTests.test_independent_product_probability_and_mass) ... ok
+test_initial_state_is_included (__main__.OracleTests.test_initial_state_is_included) ... ok
+test_invalid_inputs_are_rejected (__main__.OracleTests.test_invalid_inputs_are_rejected) ... ok
+test_last_disturbance_cannot_change_position_score (__main__.OracleTests.test_last_disturbance_cannot_change_position_score) ... ok
+test_score_sign_and_boundary (__main__.OracleTests.test_score_sign_and_boundary) ... ok
+test_summary_is_json_serializable (__main__.OracleTests.test_summary_is_json_serializable) ... ok
+test_support_cardinality_and_branch_ids (__main__.OracleTests.test_support_cardinality_and_branch_ids) ... ok
+test_turn_sign_and_second_position (__main__.OracleTests.test_turn_sign_and_second_position) ... ok
+test_update_order_uses_old_heading (__main__.OracleTests.test_update_order_uses_old_heading) ... ok
+test_vectorization_matches_independent_scalar_all_4096 (__main__.OracleTests.test_vectorization_matches_independent_scalar_all_4096) ... ok
+test_witness_and_regret_for_all_frozen_queries (__main__.OracleTests.test_witness_and_regret_for_all_frozen_queries) ... ok
+test_zero_action_closed_form (__main__.OracleTests.test_zero_action_closed_form) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.813s
+
+OK

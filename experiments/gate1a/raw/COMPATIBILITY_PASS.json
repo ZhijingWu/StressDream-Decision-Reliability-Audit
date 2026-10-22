@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "model_construction_and_strict_load_s": 0.17091549999986455,
+  "submodules_strictly_loaded": [
+    "vae",
+    "denoiser",
+    "margin_head",
+    "done_head"
+  ],
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "head_epoch": 30,
+  "head_evidence": "Nonempty head tensors in restricted-loaded VAE, compatible names/shapes and positive saved epoch; not proof of fitting quality",
+  "device": "cpu",
+  "parameter_count": 5075917,
+  "model_forward_calls": 0,
+  "peak_process_memory": {
+    "rss": 271990784,
+    "vms": 436350976,
+    "num_page_faults": 142848,
+    "peak_wset": 271990784,
+    "wset": 271990784,
+    "peak_paged_pool": 1074808,
+    "paged_pool": 1074024,
+    "peak_nonpaged_pool": 36904,
+    "nonpaged_pool": 36776,
+    "pagefile": 436350976,
+    "peak_pagefile": 436350976,
+    "private": 436350976
+  }
+}

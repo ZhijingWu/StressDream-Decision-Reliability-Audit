@@ -1,0 +1,465 @@
+{
+  "actions": {
+    "12": {
+      "A0": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "A1": [
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625
+      ],
+      "A2": [
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25
+      ],
+      "A3": [
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "A4": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25
+      ]
+    },
+    "16": {
+      "A0": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "A1": [
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625,
+        0.625
+      ],
+      "A2": [
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25
+      ],
+      "A3": [
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "A4": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25
+      ]
+    }
+  },
+  "contexts": [
+    {
+      "beta": 0.0,
+      "context_id": "C00",
+      "rho": 0.35,
+      "split": "test",
+      "state": [
+        -0.35,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "beta": 0.2,
+      "context_id": "C01",
+      "rho": 0.35,
+      "split": "calibration",
+      "state": [
+        -0.35,
+        0.0,
+        0.2
+      ]
+    },
+    {
+      "beta": 0.4,
+      "context_id": "C02",
+      "rho": 0.35,
+      "split": "test",
+      "state": [
+        -0.35,
+        0.0,
+        0.4
+      ]
+    },
+    {
+      "beta": 0.6,
+      "context_id": "C03",
+      "rho": 0.35,
+      "split": "test",
+      "state": [
+        -0.35,
+        0.0,
+        0.6
+      ]
+    },
+    {
+      "beta": 0.8,
+      "context_id": "C04",
+      "rho": 0.35,
+      "split": "calibration",
+      "state": [
+        -0.35,
+        0.0,
+        0.8
+      ]
+    },
+    {
+      "beta": 1.0,
+      "context_id": "C05",
+      "rho": 0.35,
+      "split": "test",
+      "state": [
+        -0.35,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "beta": 0.0,
+      "context_id": "C06",
+      "rho": 0.45,
+      "split": "test",
+      "state": [
+        -0.45,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "beta": 0.2,
+      "context_id": "C07",
+      "rho": 0.45,
+      "split": "calibration",
+      "state": [
+        -0.45,
+        0.0,
+        0.2
+      ]
+    },
+    {
+      "beta": 0.4,
+      "context_id": "C08",
+      "rho": 0.45,
+      "split": "test",
+      "state": [
+        -0.45,
+        0.0,
+        0.4
+      ]
+    },
+    {
+      "beta": 0.6,
+      "context_id": "C09",
+      "rho": 0.45,
+      "split": "test",
+      "state": [
+        -0.45,
+        0.0,
+        0.6
+      ]
+    },
+    {
+      "beta": 0.8,
+      "context_id": "C10",
+      "rho": 0.45,
+      "split": "calibration",
+      "state": [
+        -0.45,
+        0.0,
+        0.8
+      ]
+    },
+    {
+      "beta": 1.0,
+      "context_id": "C11",
+      "rho": 0.45,
+      "split": "test",
+      "state": [
+        -0.45,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "beta": 0.0,
+      "context_id": "C12",
+      "rho": 0.6,
+      "split": "test",
+      "state": [
+        -0.6,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "beta": 0.2,
+      "context_id": "C13",
+      "rho": 0.6,
+      "split": "calibration",
+      "state": [
+        -0.6,
+        0.0,
+        0.2
+      ]
+    },
+    {
+      "beta": 0.4,
+      "context_id": "C14",
+      "rho": 0.6,
+      "split": "test",
+      "state": [
+        -0.6,
+        0.0,
+        0.4
+      ]
+    },
+    {
+      "beta": 0.6,
+      "context_id": "C15",
+      "rho": 0.6,
+      "split": "test",
+      "state": [
+        -0.6,
+        0.0,
+        0.6
+      ]
+    },
+    {
+      "beta": 0.8,
+      "context_id": "C16",
+      "rho": 0.6,
+      "split": "calibration",
+      "state": [
+        -0.6,
+        0.0,
+        0.8
+      ]
+    },
+    {
+      "beta": 1.0,
+      "context_id": "C17",
+      "rho": 0.6,
+      "split": "test",
+      "state": [
+        -0.6,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "beta": 0.0,
+      "context_id": "C18",
+      "rho": 0.75,
+      "split": "test",
+      "state": [
+        -0.75,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "beta": 0.2,
+      "context_id": "C19",
+      "rho": 0.75,
+      "split": "calibration",
+      "state": [
+        -0.75,
+        0.0,
+        0.2
+      ]
+    },
+    {
+      "beta": 0.4,
+      "context_id": "C20",
+      "rho": 0.75,
+      "split": "test",
+      "state": [
+        -0.75,
+        0.0,
+        0.4
+      ]
+    },
+    {
+      "beta": 0.6,
+      "context_id": "C21",
+      "rho": 0.75,
+      "split": "test",
+      "state": [
+        -0.75,
+        0.0,
+        0.6
+      ]
+    },
+    {
+      "beta": 0.8,
+      "context_id": "C22",
+      "rho": 0.75,
+      "split": "calibration",
+      "state": [
+        -0.75,
+        0.0,
+        0.8
+      ]
+    },
+    {
+      "beta": 1.0,
+      "context_id": "C23",
+      "rho": 0.75,
+      "split": "test",
+      "state": [
+        -0.75,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "distinct_sequence_note": "2^H sign strings; inactive and final turns can yield duplicate safety paths",
+  "dtype": "float64",
+  "dynamics": {
+    "dt": 0.05,
+    "max_turn_rate": 1.25,
+    "obstacle_radius": 0.25,
+    "obstacle_x": 0.0,
+    "obstacle_y": 0.0,
+    "speed": 1.0
+  },
+  "fallback_context_policy": "same frozen 24 contexts; no reselection",
+  "fallback_horizon": 16,
+  "fallback_trigger": "fewer than 8/16 test contexts have spread > 0.005 m^2",
+  "gate1_authorized": false,
+  "include_initial_state": true,
+  "main_horizon": 12,
+  "numeric_tolerance": 1e-12,
+  "probability_rates": [
+    0.2,
+    0.4
+  ],
+  "safety": "C=(x-ox)^2+(y-oy)^2-r^2; unsafe C<=0; maximize min C",
+  "schema_version": 1,
+  "seed": null,
+  "source_revision": "b16fa067d3d949ef09ad48a984c62ea8ecbbfe6d",
+  "thresholds_m2": [
+    0.0025,
+    0.005,
+    0.01
+  ],
+  "time_update": "position uses theta_t; heading updated afterwards"
+}

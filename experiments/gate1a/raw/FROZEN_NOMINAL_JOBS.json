@@ -1,0 +1,141 @@
+[
+  {
+    "name": "warmup",
+    "context": 0,
+    "actions": [
+      0.0
+    ],
+    "seed": 2026102210,
+    "kind": "warmup"
+  },
+  {
+    "name": "two_step_0_0",
+    "context": 0,
+    "actions": [
+      0.0,
+      0.0
+    ],
+    "seed": 2026102300,
+    "kind": "two_step"
+  },
+  {
+    "name": "two_step_0_1",
+    "context": 0,
+    "actions": [
+      -1.25,
+      -1.25
+    ],
+    "seed": 2026102301,
+    "kind": "two_step"
+  },
+  {
+    "name": "two_step_0_2",
+    "context": 0,
+    "actions": [
+      1.25,
+      1.25
+    ],
+    "seed": 2026102302,
+    "kind": "two_step"
+  },
+  {
+    "name": "two_step_1_0",
+    "context": 1,
+    "actions": [
+      0.0,
+      0.0
+    ],
+    "seed": 2026102303,
+    "kind": "two_step"
+  },
+  {
+    "name": "two_step_1_1",
+    "context": 1,
+    "actions": [
+      -1.25,
+      -1.25
+    ],
+    "seed": 2026102304,
+    "kind": "two_step"
+  },
+  {
+    "name": "two_step_1_2",
+    "context": 1,
+    "actions": [
+      1.25,
+      1.25
+    ],
+    "seed": 2026102305,
+    "kind": "two_step"
+  },
+  {
+    "name": "two_step_2_0",
+    "context": 2,
+    "actions": [
+      0.0,
+      0.0
+    ],
+    "seed": 2026102306,
+    "kind": "two_step"
+  },
+  {
+    "name": "two_step_2_1",
+    "context": 2,
+    "actions": [
+      -1.25,
+      -1.25
+    ],
+    "seed": 2026102307,
+    "kind": "two_step"
+  },
+  {
+    "name": "two_step_2_2",
+    "context": 2,
+    "actions": [
+      1.25,
+      1.25
+    ],
+    "seed": 2026102308,
+    "kind": "two_step"
+  },
+  {
+    "name": "H12_C01_A0",
+    "context": 0,
+    "actions": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "seed": 2026102400,
+    "kind": "horizon12"
+  },
+  {
+    "name": "H12_Dm000_positive",
+    "context": 1,
+    "actions": [
+      1.25,
+      1.25,
+      1.25,
+      1.25,
+      1.25,
+      1.25,
+      1.25,
+      1.25,
+      1.25,
+      1.25,
+      1.25,
+      1.25
+    ],
+    "seed": 2026102401,
+    "kind": "horizon12"
+  }
+]

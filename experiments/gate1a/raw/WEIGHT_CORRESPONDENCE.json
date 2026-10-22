@@ -1,0 +1,12 @@
+{
+  "separate_vs_embedded_vae": {
+    "missing": [],
+    "unexpected": [],
+    "different": []
+  },
+  "duplicate_denoiser": {
+    "missing": [],
+    "unexpected": [],
+    "different": []
+  }
+}
